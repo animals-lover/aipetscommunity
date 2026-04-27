@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animalslover | AI Dog Health</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+<header class="header">
+    <div class="logo-box">
+        <div class="paw-icon">🐾</div>
+        <div class="brand-group">
+            <span class="tagline">love & respect it</span>
+            <span class="brand-name">Animalslover</span>
+        </div>
+    </div>
+</header>
+
+<!-- Upload Page -->
+<main class="container" id="upload-page">
+    <h1 class="hero-title">AI Dog <em>Health</em></h1>
+    <p class="hero-sub">Upload a photo or describe symptoms for instant AI analysis</p>
+
+    <div class="form-card">
+        <div class="upload-zone" onclick="document.getElementById('fileInput').click()">
+            <input type="file" id="fileInput" accept="image/*,video/*" hidden>
+            <span class="upload-icon">📸</span>
+            <span class="upload-text">Upload Photo or Video</span>
+            <p id="fileNameDisplay">JPG, PNG, MP4 — click to browse</p>
+        </div>
+
+        <div id="preview-wrap" class="hidden">
+            <img id="preview-img" src="" alt="Preview">
+        </div>
+
+        <div class="section-label">Describe Symptoms</div>
+        <textarea id="textInput" placeholder="e.g. redness on skin, itching ears, lethargy, not eating..."></textarea>
+
+        <div id="error-msg" class="error-text hidden"></div>
+
+        <button onclick="analyzeImage()" id="analyzeBtn">⚡ Start AI Analysis</button>
+    </div>
+</main>
+
+<!-- Result Page -->
+<main class="container hidden" id="result-page">
+    <div class="form-card">
+        <button onclick="location.reload()" class="back-btn">← Back to Analysis</button>
+        <div id="result-content"></div>
+    </div>
+</main>
+
+<!-- Loading Overlay -->
+<div id="loading" class="loading-overlay hidden">
+    <div class="spinner"></div>
+    <p>AI is analyzing your pet...</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

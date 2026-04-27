@@ -1,0 +1,1153 @@
+[
+  {
+    "id": "D001",
+    "common_name": "Tick Infestation",
+    "aliases": ["tick", "ticks", "tick attachment", "tick bite", "ticks on dog"],
+    "urgency": "Low",
+    "cause": "Ticks (Rhipicephalus, Ixodes species) attach to skin during walks in grass or wooded areas. They feed on blood and can transmit diseases like Ehrlichiosis and Lyme disease.",
+    "warning": "If dog shows hind-leg weakness or wobbling after tick bite — rush to vet immediately. This is Tick Paralysis, a medical emergency.",
+    "medicines": [
+      {
+        "name": "Frontline Plus (Fipronil + S-Methoprene)",
+        "type": "Spot-on Parasiticide",
+        "dispensing": "OTC",
+        "dose": "1 pipette applied to skin between shoulder blades monthly",
+        "note": "Do not bathe dog 48 hours before or after application"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Himalaya Erina-EP Tick & Flea Shampoo",
+        "type": "Medicated Shampoo",
+        "active": "Neem (Nimba), Eucalyptus",
+        "use": "Lather, leave 5 minutes, rinse. Use weekly during active infestation.",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1Njk1MDc3MTkyNDczODQ2OjE3NzcyNjE4ODk6c3BfYXRmOjIwMTY4MzkwNTIyNTk4OjowOjo&url=%2FHimalaya-Improves-Irritation-Eucalyptus-Effective%2Fdp%2FB073RVF88P%2Fref%3Dsr_1_1_sspa%3Fadgrpid%3D1317216539796740%26dib%3DeyJ2IjoiMSJ9.L6-DuDx8T4RanmTf9bin0cz2uTchdaRcwb-Cw7uC_KA23sLzoy2_wUHxJX_1Xpr0gmPM6IySegErwao3kdR9d9laN00PaxEqWJKJeNroHEYyPXLNxg3E1k5ntFsLRbNYKdTEibGGhRrVtylvyAIvCik89BQ87lcyi1UKOiXq47z59Nlylpxoo0yfJNYq6AbSFVYUVwx2jNR-aYTtoTkGJiQY7QszHY684iB18ktcWKWiraT1LiirqYdi0Pvpv5r9FfGSF2SpzlRyXpUbnPDiGu9iRqby_NPGH2JNydqOMcc.Lp8cfqIk-C7MKlS75BTc63TG4869kU7iA8Sksjoy16k%26dib_tag%3Dse%26hvadid%3D82326291938571%26hvbmt%3Dbe%26hvdev%3Dc%26hvlocphy%3D155082%26hvnetw%3Do%26hvqmt%3De%26hvtargid%3Dkwd-82326917007481%253Aloc-90%26hydadcr%3D22248_1925859%26keywords%3Dhimalaya%2Berina%2Bpet%2Bshampoo%26mcid%3D3ed5c0e6af003904a37872842d1df8e3%26msclkid%3De221adcf30f01d60407fc421edcd7892%26nsdOptOutParam%3Dtrue%26qid%3D1777261889%26sr%3D8-1-spons%26aref%3DHDK7gvQOyG%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=HDK7gvQOyG&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/51UYPTXkUhL._SY450_.jpg"
+      },
+      {
+        "name": "Himalaya Scavon Vet Antiseptic Cream",
+        "type": "Wound Cream",
+        "active": "Haridra, Nimba, Yashthimadhu",
+        "use": "Apply to bite site after tick removal to prevent infection",
+        "buy_link": "https://www.amazon.in/Himalaya-Wellness-Company-Scavon-Cream/dp/B006G87NDM",
+        "image_url": "https://himalayawellness.in/cdn/shop/products/SCAVON-VET-CREAM-50G-INDIA-10072-F39-FV-copy_1800x1800.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow Oral Coat Conditioner (Omega-3)",
+        "benefit": "Soothes inflamed skin and rebuilds skin barrier damaged by tick bites",
+        "dose": "1 pump on food daily",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Never burn, squeeze or twist a tick — causes it to inject bacteria into the wound",
+      "Use fine-tipped tweezers, grasp close to skin, pull upward steadily",
+      "Treat ALL pets in the house simultaneously"
+    ]
+  },
+  {
+    "id": "D002",
+    "common_name": "Flea Infestation",
+    "aliases": ["fleas", "flea", "dog fleas", "itching dog", "flea dirt", "scratching dog"],
+    "urgency": "Low",
+    "cause": "Ctenocephalides canis fleas jump onto dogs from infested grass, carpets, or other animals. 95% of fleas live in the environment, not on the dog.",
+    "warning": "A single female flea lays 50 eggs per day — treat the home environment simultaneously or infestation returns within weeks.",
+    "medicines": [
+      {
+        "name": "Frontline Plus (Fipronil + S-Methoprene)",
+        "type": "Spot-on — kills adults + prevents eggs",
+        "dispensing": "OTC",
+        "dose": "Monthly spot-on between shoulder blades",
+        "note": "Kills adult fleas AND stops egg development"
+      },
+      {
+        "name": "Comfortis (Spinosad) Oral Tablet",
+        "type": "Oral Parasiticide",
+        "dispensing": "OTC",
+        "dose": "Once monthly with a full meal",
+        "note": "Starts killing fleas within 30 minutes — faster than spot-ons"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Himalaya Erina-EP Tick & Flea Shampoo",
+        "type": "Anti-flea Shampoo",
+        "active": "Neem, Eucalyptus",
+        "use": "Lather thoroughly, leave 5 minutes, rinse. Repeat weekly during infestation.",
+        "buy_link": "https://www.amazon.in/Himalaya-Erina-EP-Tick-Flea-Shampoo/dp/B01N5IISZL",
+        "image_url": "https://m.media-amazon.com/images/I/51UYPTXkUhL._SY450_.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow (Omega-3 Fish Oil)",
+        "benefit": "Reduces flea-bite skin inflammation and relieves itching",
+        "dose": "Daily with food during and after infestation",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Wash all dog bedding at 60°C and vacuum all carpets — fleas survive months in fabric",
+      "Treat all pets in the house at the same time",
+      "Do not use dog flea products on cats — permethrin is fatal to cats"
+    ]
+  },
+  {
+    "id": "D003",
+    "common_name": "Hot Spot (Acute Moist Dermatitis)",
+    "aliases": ["hot spot", "hot spots", "moist dermatitis", "red wet patch", "dog licking wound", "skin sore"],
+    "urgency": "Medium",
+    "cause": "Self-trauma from scratching or licking (triggered by flea bites, allergies, or moisture) creates a warm moist wound that Staphylococcus bacteria rapidly colonize and spread.",
+    "warning": "Hot spots double in size within hours if licking continues. Use an E-collar immediately.",
+    "medicines": [
+      {
+        "name": "Hydrocortisone Spray 1%",
+        "type": "Corticosteroid (OTC)",
+        "dispensing": "OTC",
+        "dose": "Spray thin layer on hot spot 2x daily for up to 7 days",
+        "note": "Breaks the itch-scratch cycle. Do not use more than 7 days without vet guidance."
+      },
+      {
+        "name": "Betamethasone + Gentamicin Spray (Gentabet)",
+        "type": "Corticosteroid + Antibiotic",
+        "dispensing": "Prescription",
+        "dose": "Spray 2-3 times daily for 5-7 days",
+        "note": "For larger or infected hot spots — requires vet prescription"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Chlorhexidine 2% Antiseptic Spray",
+        "type": "Antibacterial Spray",
+        "active": "Chlorhexidine Gluconate 2%",
+        "use": "Clip fur around hot spot. Clean with this spray before any cream. Use 2x daily.",
+        "buy_link": "https://www.amazon.in/s?k=chlorhexidine+2+percent+spray+dog",
+        "image_url": "https://m.media-amazon.com/images/I/61SL5zTtRML._SL1500_.jpg"
+      },
+      {
+        "name": "Himalaya Scavon Vet Cream",
+        "type": "Healing Antiseptic Cream",
+        "active": "Haridra, Nimba, Calendula",
+        "use": "Apply thin layer on cleaned hot spot after antiseptic spray dries",
+        "buy_link": "https://www.amazon.in/Himalaya-Wellness-Company-Scavon-Cream/dp/B006G87NDM",
+        "image_url": "https://himalayawellness.in/cdn/shop/products/SCAVON-VET-CREAM-50G-INDIA-10072-F39-FV-copy_1800x1800.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow (Omega-3)",
+        "benefit": "Reduces chronic skin inflammation that triggers hot spots from allergies",
+        "dose": "Daily with food as long-term prevention",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Do NOT cover the hot spot — it needs air to dry out and heal",
+      "Use E-collar immediately — licking spreads bacteria and doubles size within hours",
+      "Hot spot larger than a coin or spreading fast = see vet for oral antibiotics"
+    ]
+  },
+  {
+    "id": "D004",
+    "common_name": "Ear Infection (Otitis Externa)",
+    "aliases": ["ear infection", "ear smell", "ear discharge", "dog ear", "head shaking dog", "scratching ear", "brown ear wax", "otitis"],
+    "urgency": "Medium",
+    "cause": "Bacteria (Staphylococcus, Pseudomonas) or yeast (Malassezia) overgrowth inside the ear canal triggered by trapped moisture, allergies, or ear mites. Common in floppy-eared breeds.",
+    "warning": "Head tilting to one side + loss of balance = middle ear infection (Otitis Media). Emergency vet visit needed immediately.",
+    "medicines": [
+      {
+        "name": "Otomax Ear Drops (Gentamicin + Betamethasone + Clotrimazole)",
+        "type": "Antibiotic + Antifungal + Steroid ear drops",
+        "dispensing": "Prescription",
+        "dose": "4 drops in affected ear 2x daily for 7 days. Massage ear base after each dose.",
+        "note": "Covers bacteria AND yeast in one product — most effective for mixed infections"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Virbac Epi-Otic Ear Cleanser",
+        "type": "Ear Cleaning Solution",
+        "active": "Salicylic acid, Lactic acid",
+        "use": "Fill ear canal, massage 30 seconds, let dog shake, wipe outer ear with cotton. Use before drops.",
+        "buy_link": "https://www.amazon.in/Virbac-Epi-Otic-Ear-Cleanser/dp/B00BUYPGOI",
+        "image_url": "https://m.media-amazon.com/images/I/51HYAfFHqvL._SL1000_.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow (Omega-3)",
+        "benefit": "Reduces allergy-driven ear inflammation — the #1 root cause of recurring ear infections",
+        "dose": "Daily with meals as long-term preventative",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER insert cotton swabs deep into the ear — can rupture eardrum",
+      "Dry ears thoroughly after every bath and swim — moisture is the #1 trigger",
+      "Never use human ear drops — they contain alcohol that burns and damages dog ear tissue"
+    ]
+  },
+  {
+    "id": "D005",
+    "common_name": "Sarcoptic Mange (Scabies)",
+    "aliases": ["mange", "scabies", "mites dog", "intense scratching", "ear edge crust", "hair loss elbow", "sarcoptic"],
+    "urgency": "High",
+    "cause": "Sarcoptes scabiei mites burrow into the outer skin layer causing intense allergic itch. Spreads through direct contact with infected dogs or contaminated bedding.",
+    "warning": "Sarcoptic mange is contagious to humans. Wear gloves when handling the dog and wash hands thoroughly after contact.",
+    "medicines": [
+      {
+        "name": "Fluralaner (Bravecto) Chewable Tablet",
+        "type": "Isoxazoline Parasiticide",
+        "dispensing": "OTC / Vet Recommended",
+        "dose": "Single oral dose by weight with food. One dose = 12 weeks coverage.",
+        "note": "Kills Sarcoptes mites within 24 hours. Most effective modern treatment."
+      },
+      {
+        "name": "Ivermectin Injection",
+        "type": "Antiparasitic",
+        "dispensing": "Vet Only",
+        "dose": "Given by vet subcutaneously, typically weekly for 4-6 weeks",
+        "note": "NEVER use in Collies, Shelties — MDR1 gene causes fatal ivermectin toxicity in these breeds"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Himalaya Erina-EP Shampoo",
+        "type": "Medicated Shampoo",
+        "active": "Neem, Eucalyptus",
+        "use": "Wear gloves. Lather, leave 10 minutes, rinse. Weekly during treatment to remove mite crusts.",
+        "buy_link": "https://www.amazon.in/Himalaya-Erina-EP-Tick-Flea-Shampoo/dp/B01N5IISZL",
+        "image_url": "https://m.media-amazon.com/images/I/51UYPTXkUhL._SY450_.jpg"
+      },
+      {
+        "name": "Himalaya Scavon Vet Cream",
+        "type": "Antiseptic Healing Cream",
+        "active": "Haridra, Nimba",
+        "use": "Apply to raw crusted skin areas after bathing to prevent secondary bacterial infection",
+        "buy_link": "https://www.amazon.in/Himalaya-Wellness-Company-Scavon-Cream/dp/B006G87NDM",
+        "image_url": "https://himalayawellness.in/cdn/shop/products/SCAVON-VET-CREAM-50G-INDIA-10072-F39-FV-copy_1800x1800.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow (Omega-3 + Vitamin E)",
+        "benefit": "Rebuilds damaged skin barrier, reduces inflammatory itch, supports coat regrowth",
+        "dose": "Daily throughout treatment period and 1 month after recovery",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Zoonotic — contagious to humans. Wear gloves at all times.",
+      "Treat ALL pets in the household simultaneously",
+      "Wash all bedding in hot water 60°C+ and disinfect living area — mites survive 36 hours off the host",
+      "NEVER use ivermectin in Collies, Shelties, Australian Shepherds"
+    ]
+  },
+  {
+    "id": "D006",
+    "common_name": "Ringworm (Dermatophytosis)",
+    "aliases": ["ringworm", "circular bald patch", "round hair loss", "fungal skin infection", "ring on skin dog"],
+    "urgency": "Medium",
+    "cause": "Microsporum canis fungus infects hair follicles, causing the characteristic expanding circular patches. Spreads through contact with infected animals, soil, or shared grooming tools.",
+    "warning": "Ringworm is highly contagious to humans, especially children. Wear gloves when handling the dog.",
+    "medicines": [
+      {
+        "name": "Itraconazole (Itrafungol / Sporanox)",
+        "type": "Oral Antifungal",
+        "dispensing": "Prescription",
+        "dose": "5 mg/kg once daily with food for 3 weeks minimum",
+        "note": "Preferred over Griseofulvin. Safer in puppies. Takes 6-8 weeks minimum for full clearance."
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Nizoral Shampoo (Ketoconazole 2%)",
+        "type": "Antifungal Shampoo",
+        "active": "Ketoconazole 2%",
+        "use": "Lather entire body, leave 10 minutes, rinse well. Use twice weekly for 6-8 weeks.",
+        "buy_link": "https://www.amazon.in/Nizoral-Anti-Dandruff-Shampoo-Ketoconazole/dp/B00RY8JFSA",
+        "image_url": "https://m.media-amazon.com/images/I/61bQkiydAaL._SL1500_.jpg"
+      },
+      {
+        "name": "Clotrimazole Cream 1% (Canesten)",
+        "type": "Antifungal Cream",
+        "active": "Clotrimazole 1%",
+        "use": "Apply to patch and 1 cm beyond the ring border twice daily for 4-6 weeks",
+        "buy_link": "https://www.amazon.in/s?k=clotrimazole+cream+1+percent",
+        "image_url": "https://m.media-amazon.com/images/I/41aTKzIu0LL.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Biotin (Vitamin B7) Supplement",
+        "benefit": "Promotes rapid hair follicle recovery and coat regrowth in bald patches after infection clears",
+        "dose": "Once daily with food for minimum 6 weeks during and after treatment",
+        "buy_link": "https://www.amazon.in/s?k=biotin+supplement+dog",
+        "image_url": "https://m.media-amazon.com/images/I/71d9VGRTWuL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Highly contagious to humans — wear gloves, wash hands after contact",
+      "Disinfect all brushes, bedding, collars with 1:10 bleach solution — spores survive months",
+      "Continue treatment 2 weeks AFTER lesions appear healed to prevent relapse",
+      "Isolate the dog from children and other pets during treatment"
+    ]
+  },
+  {
+    "id": "D007",
+    "common_name": "Skin Allergy (Atopic Dermatitis)",
+    "aliases": ["skin allergy", "dog allergy", "atopic dermatitis", "paw licking", "face rubbing", "dog itching belly", "dog rash", "allergic skin"],
+    "urgency": "Medium",
+    "cause": "Genetic overreaction to environmental allergens (pollen, dust mites, mold) or food proteins (chicken, beef, wheat). The skin barrier is defective allowing allergens to penetrate.",
+    "warning": "Apoquel must not be used in dogs under 12 months or those with serious infections. Consult vet before starting any immunosuppressive therapy.",
+    "medicines": [
+      {
+        "name": "Oclacitinib (Apoquel) Tablet",
+        "type": "Janus Kinase Inhibitor",
+        "dispensing": "Prescription",
+        "dose": "0.4-0.6 mg/kg twice daily for 14 days, then once daily maintenance",
+        "note": "Works within 4 hours. Gold standard for atopic dermatitis. Prescription required."
+      },
+      {
+        "name": "Cytopoint (Lokivetmab) Injection",
+        "type": "Monoclonal Antibody",
+        "dispensing": "Vet Only",
+        "dose": "Single injection by vet every 4-8 weeks",
+        "note": "Biologic therapy, very safe, lasts up to 8 weeks"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Virbac Allermyl Shampoo",
+        "type": "Allergy Relief Shampoo",
+        "active": "Piroctone Olamine, Glycotechnology complex",
+        "use": "Leave on 10 minutes. 2x weekly during flares, once weekly for maintenance.",
+        "buy_link": "https://www.amazon.in/Virbac-Allermyl-Shampoo/dp/B07BPHYV38",
+        "image_url": "https://m.media-amazon.com/images/I/31uiS18rpmL.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow High-dose Omega-3 (EPA + DHA)",
+        "benefit": "Reduces skin inflammation at cellular level and rebuilds skin barrier — reduces Apoquel dose needed over time",
+        "dose": "180 mg EPA + 120 mg DHA per 5 kg body weight daily. Results in 4-6 weeks.",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER use human antihistamines like Benadryl without vet dosing guidance",
+      "Food allergy trials must use strict hydrolyzed or novel protein diet for 12 full weeks to be valid",
+      "Apoquel should not be used in dogs under 12 months"
+    ]
+  },
+  {
+    "id": "D008",
+    "common_name": "Parvovirus (Parvo)",
+    "aliases": ["parvovirus", "parvo", "bloody diarrhea puppy", "puppy very sick", "parvo symptoms", "vomiting blood puppy"],
+    "urgency": "Critical",
+    "cause": "Canine Parvovirus 2 (CPV-2) destroys intestinal lining and bone marrow. Spread through infected feces. Survives in soil for years. Most fatal in unvaccinated puppies 6 weeks to 6 months old.",
+    "warning": "THIS IS A LIFE-THREATENING EMERGENCY. Go to a vet immediately — every hour matters. Mortality without treatment is up to 91%. There is NO effective home treatment.",
+    "medicines": [
+      {
+        "name": "IV Fluid Therapy (Normal Saline / Ringer's Lactate)",
+        "type": "Emergency Supportive — Vet Only",
+        "dispensing": "Vet / Hospital Only",
+        "dose": "Continuous IV drip calculated by vet based on dehydration level",
+        "note": "The single most important treatment. Cannot be replaced by oral fluids — the gut is destroyed and cannot absorb."
+      },
+      {
+        "name": "Maropitant (Cerenia) Anti-nausea",
+        "type": "NK1 Receptor Antagonist",
+        "dispensing": "Prescription / Vet",
+        "dose": "1 mg/kg IV or SC once daily at vet clinic",
+        "note": "Controls vomiting and allows the gut to rest and begin healing"
+      },
+      {
+        "name": "Ampicillin IV (Antibiotic — prevents sepsis)",
+        "type": "Beta-lactam Antibiotic",
+        "dispensing": "Vet / Hospital",
+        "dose": "22 mg/kg IV every 6-8 hours in hospital",
+        "note": "Prevents secondary bacterial sepsis while immune system is suppressed"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Purina Pro Plan Fortiflora Probiotic",
+        "benefit": "Restores gut microbiome destroyed by Parvovirus. ONLY start AFTER vomiting stops and dog can eat.",
+        "dose": "1 sachet sprinkled on food daily for 4-6 weeks post-discharge",
+        "buy_link": "https://www.amazon.in/s?k=purina+fortiflora+dog+probiotic",
+        "image_url": "https://m.media-amazon.com/images/I/61-pCiWl4AL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "EMERGENCY — rush to vet immediately. Do not wait.",
+      "Do NOT attempt oral fluids at home — vomiting gut cannot absorb them and you lose critical time",
+      "Vaccinate puppies at 6, 8, 12, and 16 weeks — this disease is entirely preventable",
+      "Parvovirus survives in soil 7 years — disinfect all surfaces with 1:30 bleach solution"
+    ]
+  },
+  {
+    "id": "D009",
+    "common_name": "Kennel Cough (Infectious Tracheobronchitis)",
+    "aliases": ["kennel cough", "dog cough", "honking cough", "bordetella", "dog hacking", "dog gagging cough"],
+    "urgency": "Low",
+    "cause": "Bordetella bronchiseptica bacteria alone or combined with canine parainfluenza virus. Spreads through the air in enclosed spaces (kennels, dog parks, grooming salons).",
+    "warning": "If dog develops fever, stops eating, or cough lasts more than 3 weeks — see vet immediately. May have progressed to pneumonia.",
+    "medicines": [
+      {
+        "name": "Doxycycline",
+        "type": "Antibiotic",
+        "dispensing": "Prescription",
+        "dose": "5-10 mg/kg twice daily for 7-10 days with food",
+        "note": "For confirmed bacterial cases. Give with food to prevent nausea."
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Warm Steam Inhalation (Home Therapy)",
+        "type": "Steam Therapy",
+        "active": "Warm moist air",
+        "use": "Run hot shower, close bathroom door, sit with dog in steam for 10 minutes twice daily. Do NOT direct steam nozzle at dog.",
+        "buy_link": null,
+        "image_url": null
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Manuka Honey (Natural Throat Soother)",
+        "benefit": "Soothes throat lining, mild antibacterial, reduces cough irritation",
+        "dose": "0.5 tsp small dog / 1 tsp large dog, 2x daily. Do NOT give to puppies under 1 year.",
+        "buy_link": "https://www.amazon.in/s?k=manuka+honey+pure",
+        "image_url": "https://m.media-amazon.com/images/I/71EBQ4n2mML._SL1500_.jpg"
+      },
+      {
+        "name": "Vitamin C Immune Booster",
+        "benefit": "Supports immune response and speeds recovery from respiratory infection",
+        "dose": "125 mg per 5 kg body weight daily during illness",
+        "buy_link": "https://www.amazon.in/s?k=vitamin+c+supplement+dog",
+        "image_url": "https://m.media-amazon.com/images/I/61CJtTyFG4L._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Isolate from other dogs for 2 weeks — kennel cough is airborne and extremely contagious",
+      "Use a harness instead of neck collar — collar pressure on trachea worsens coughing",
+      "Vaccinate annually with Bordetella vaccine for dogs that visit kennels or dog parks"
+    ]
+  },
+  {
+    "id": "D010",
+    "common_name": "Gastroenteritis (Vomiting & Diarrhea)",
+    "aliases": ["vomiting", "diarrhea", "loose motions", "stomach upset", "dog not eating", "dog loose stool", "dog vomiting", "dog watery stool"],
+    "urgency": "Low",
+    "cause": "Dietary indiscretion (eating grass, garbage, sudden diet change), bacterial/viral infection, intestinal parasites, stress, or food intolerance.",
+    "warning": "See vet immediately if: blood in vomit or stool, dog is a puppy, symptoms last more than 48 hours, or dog is severely lethargic.",
+    "medicines": [
+      {
+        "name": "Metronidazole (Flagyl)",
+        "type": "Antibiotic + Antiprotozoal",
+        "dispensing": "Prescription",
+        "dose": "10-15 mg/kg twice daily for 5-7 days with food",
+        "note": "Covers Giardia and Clostridium. Also has gut anti-inflammatory effect."
+      },
+      {
+        "name": "Kaolin-Pectin OTC",
+        "type": "Gut Protectant / Antidiarrheal",
+        "dispensing": "OTC",
+        "dose": "1-2 ml/kg every 4-6 hours",
+        "note": "Coats gut lining, absorbs toxins, reduces fluid loss from diarrhea"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Purina Fortiflora Probiotic",
+        "benefit": "Restores healthy gut bacteria. Shortens diarrhea episodes by up to 50%.",
+        "dose": "1 sachet sprinkled on food daily. Start as soon as vomiting stops.",
+        "buy_link": "https://www.amazon.in/s?k=purina+fortiflora+dog",
+        "image_url": "https://m.media-amazon.com/images/I/61-pCiWl4AL._SL1500_.jpg"
+      },
+      {
+        "name": "ORS / Electral Oral Rehydration Salts",
+        "benefit": "Replaces sodium, potassium, glucose lost through vomiting and diarrhea. Prevents dangerous dehydration.",
+        "dose": "Offer as drinking water during illness. Do NOT force-feed to actively vomiting dogs.",
+        "buy_link": "https://www.amazon.in/s?k=electral+oral+rehydration+salts",
+        "image_url": "https://m.media-amazon.com/images/I/51pM3HJTFAL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Fast for 12-24 hours (water available), then bland diet: boiled chicken + plain rice",
+      "NEVER give Imodium (loperamide) to Collies or Shelties — causes fatal neurological toxicity",
+      "NEVER give human anti-diarrheal tablets containing bismuth subsalicylate (Pepto-Bismol) — toxic to dogs",
+      "Blood in vomit or stool = emergency vet visit"
+    ]
+  },
+  {
+    "id": "D011",
+    "common_name": "Worm Infestation (Roundworm / Tapeworm / Hookworm)",
+    "aliases": ["worms", "tapeworm", "roundworm", "hookworm", "dog scooting", "rice grains in stool", "pot belly puppy", "worms in poop"],
+    "urgency": "Medium",
+    "cause": "Roundworms from contaminated soil or mother's milk. Tapeworms from ingesting infected fleas. Hookworms penetrate through skin or ingestion. Puppies commonly infected from mother.",
+    "warning": "Roundworms can infect humans (Toxocariasis). Hookworm larvae can penetrate human skin. Wash hands thoroughly after handling dog feces.",
+    "medicines": [
+      {
+        "name": "Fenbendazole (Panacur)",
+        "type": "Broad-spectrum Dewormer",
+        "dispensing": "OTC",
+        "dose": "50 mg/kg once daily for 3 consecutive days. Repeat in 2-3 weeks.",
+        "note": "Covers roundworms, hookworms, whipworms, Giardia. Safe in puppies and pregnant dogs."
+      },
+      {
+        "name": "Praziquantel + Pyrantel (Drontal Plus)",
+        "type": "Broad-spectrum — Tapeworm + Round/Hookworm",
+        "dispensing": "OTC",
+        "dose": "Single dose by weight. Repeat in 2-3 weeks.",
+        "note": "Best single-tablet option covering tapeworms AND roundworms/hookworms together"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Purina Fortiflora Probiotic",
+        "benefit": "Restores gut bacteria disrupted by worm damage and deworming medication",
+        "dose": "Daily with food for 2-4 weeks after deworming",
+        "buy_link": "https://www.amazon.in/s?k=purina+fortiflora+dog",
+        "image_url": "https://m.media-amazon.com/images/I/61-pCiWl4AL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Deworm puppies at 2, 4, 6, 8 weeks then monthly to 6 months, then quarterly",
+      "Treat fleas to prevent tapeworm re-infection — fleas carry tapeworm larvae",
+      "Dispose of dog feces immediately to prevent soil contamination and re-infection",
+      "Pale gums + extreme weakness = heavy hookworm burden causing anemia — emergency vet"
+    ]
+  },
+  {
+    "id": "D012",
+    "common_name": "Conjunctivitis (Eye Infection)",
+    "aliases": ["pink eye dog", "red eye dog", "eye discharge dog", "eye infection dog", "cloudy eye dog", "dog eye pus", "eye swelling dog"],
+    "urgency": "Low",
+    "cause": "Bacterial infection (most common), viral infection, allergies, foreign body in eye, or anatomical issues (entropion) in flat-faced breeds.",
+    "warning": "Cloudy eye, sudden vision loss, or bulging eye = emergency vet immediately. May be Glaucoma or Uveitis.",
+    "medicines": [
+      {
+        "name": "Tobramycin Eye Drops (Tobrex)",
+        "type": "Antibiotic Eye Drops",
+        "dispensing": "Prescription",
+        "dose": "1-2 drops in affected eye 3 times daily for 5-7 days",
+        "note": "Broad-spectrum antibiotic. Use separate cotton ball for each eye to prevent cross-infection."
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Sterile Saline Eye Flush 0.9%",
+        "type": "Eye Cleaning Solution",
+        "active": "Sodium Chloride 0.9%",
+        "use": "Tilt dog's head, gently flush eye 2-3 times daily. Wipe clean with soft cotton. Use before eye drops.",
+        "buy_link": "https://www.amazon.in/s?k=sterile+eye+wash+saline",
+        "image_url": "https://m.media-amazon.com/images/I/61SWyjOAj0L._SL1500_.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow (Omega-3)",
+        "benefit": "Reduces ocular inflammation and supports tear film stability in allergic conjunctivitis",
+        "dose": "Daily with food",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER use human Visine or Systane — contain vasoconstrictors harmful to dogs",
+      "Use a separate cotton ball for each eye to prevent spreading infection",
+      "If no improvement in 3 days with OTC care — see vet for prescription drops"
+    ]
+  },
+  {
+    "id": "D013",
+    "common_name": "Hip Dysplasia",
+    "aliases": ["hip dysplasia", "bunny hop gait", "dog limping hind leg", "dog trouble standing", "hip pain dog", "hind leg weakness"],
+    "urgency": "Medium",
+    "cause": "Genetic malformation of the hip joint causing laxity and progressive arthritis. Worsened by rapid growth in puppies, obesity, and high-impact exercise during development.",
+    "warning": "NEVER give human NSAIDs (ibuprofen, naproxen, paracetamol) — they cause fatal gastrointestinal ulcers and kidney failure in dogs.",
+    "medicines": [
+      {
+        "name": "Meloxicam (Metacam) NSAID",
+        "type": "Non-Steroidal Anti-Inflammatory",
+        "dispensing": "Prescription",
+        "dose": "0.1 mg/kg once daily with food. Never exceed dose.",
+        "note": "Most commonly prescribed dog NSAID. Monitor kidney function with long-term use."
+      },
+      {
+        "name": "Gabapentin",
+        "type": "Neuropathic Pain Relief",
+        "dispensing": "Prescription",
+        "dose": "5-10 mg/kg twice daily. Often combined with Meloxicam.",
+        "note": "Addresses the nerve pain component of chronic hip dysplasia"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Glucosamine + Chondroitin + MSM (Cosequin DS)",
+        "benefit": "Glucosamine rebuilds cartilage. Chondroitin retains joint fluid. MSM reduces inflammation. Clinically proven to slow progression.",
+        "dose": "Double loading dose for first 4-6 weeks, then maintenance. Takes 4-8 weeks to see results.",
+        "buy_link": "https://www.amazon.in/s?k=glucosamine+chondroitin+msm+dog+joint",
+        "image_url": "https://m.media-amazon.com/images/I/71qBvSCzwNL._SL1500_.jpg"
+      },
+      {
+        "name": "Himalaya Furglow High-Dose Omega-3",
+        "benefit": "EPA reduces inflammatory prostaglandins destroying the joint. Studies show 40% reduction in joint pain with high-dose Omega-3.",
+        "dose": "High dose — discuss with vet for correct dose by weight",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER give ibuprofen, aspirin, or paracetamol — cause fatal kidney failure in dogs",
+      "Maintain lean body weight — every extra kg puts 3-4 kg force on already damaged joints",
+      "Avoid high-impact activities — opt for swimming and leash walks on soft surfaces"
+    ]
+  },
+  {
+    "id": "D014",
+    "common_name": "Arthritis (Osteoarthritis)",
+    "aliases": ["arthritis", "joint pain dog", "old dog stiff", "dog limping elderly", "dog cannot stand", "morning stiffness dog", "dog slow gait"],
+    "urgency": "Medium",
+    "cause": "Normal wear and tear with age causing cartilage breakdown. Worsened by previous injuries, obesity, or breed predisposition (Labs, Goldens, German Shepherds).",
+    "warning": "Get an orthopedic memory foam bed — hard floors significantly worsen arthritis pain. Install ramps instead of letting the dog jump.",
+    "medicines": [
+      {
+        "name": "Carprofen (Rimadyl) NSAID",
+        "type": "Non-Steroidal Anti-Inflammatory",
+        "dispensing": "Prescription",
+        "dose": "2.2 mg/kg twice daily or 4.4 mg/kg once daily with food",
+        "note": "Gold standard for canine arthritis. Monitor liver enzymes every 6 months with long-term use."
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Warm Compress / Heating Pad (Home Therapy)",
+        "type": "Warming Joint Therapy",
+        "active": "Moist heat",
+        "use": "Apply warm damp cloth to stiff joints for 10-15 minutes twice daily, especially in cold weather. Do NOT use hot — test on your wrist first.",
+        "buy_link": null,
+        "image_url": null
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Cosequin DS (Glucosamine + Chondroitin + MSM)",
+        "benefit": "Most studied joint supplement. Slows cartilage destruction, lubricates joints, reduces pain. Safe for indefinite long-term use.",
+        "dose": "Double dose for first 4-6 weeks (loading phase). Allow 6-8 weeks for full effects.",
+        "buy_link": "https://www.amazon.in/s?k=cosequin+ds+dog+joint",
+        "image_url": "https://m.media-amazon.com/images/I/71qBvSCzwNL._SL1500_.jpg"
+      },
+      {
+        "name": "Himalaya Furglow Omega-3 (High Dose EPA+DHA)",
+        "benefit": "Reduces inflammatory mediators in joint fluid. Studies show Omega-3 reduces NSAID dose needed by up to 25%.",
+        "dose": "High dose by weight — discuss with vet",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER give ibuprofen, aspirin, or paracetamol — cause kidney failure and death in dogs",
+      "Get an orthopedic foam bed — hard surfaces dramatically worsen arthritis pain",
+      "Use ramps for furniture access — jumping causes acute joint injury on top of chronic arthritis"
+    ]
+  },
+  {
+    "id": "D015",
+    "common_name": "Urinary Tract Infection (UTI)",
+    "aliases": ["UTI", "urinary tract infection", "dog peeing blood", "straining to urinate", "bladder infection dog", "bloody urine dog", "dog frequent urination"],
+    "urgency": "Medium",
+    "cause": "E. coli (most common) bacteria ascending from the urethra into the bladder. More common in females due to shorter urethra. Worsened by obesity, bladder stones, or diabetes.",
+    "warning": "If dog CANNOT urinate at all despite straining = BLOCKED URETHRA. Life-threatening emergency — go to vet immediately.",
+    "medicines": [
+      {
+        "name": "Amoxicillin-Clavulanate (Synulox / Clavamox)",
+        "type": "Beta-lactam Antibiotic",
+        "dispensing": "Prescription",
+        "dose": "12.5 mg/kg twice daily for 7-14 days with food",
+        "note": "First-line for uncomplicated UTI. Always complete the full course even if symptoms resolve."
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Cranberry Extract (PAC — Proanthocyanidins)",
+        "benefit": "Prevents E. coli bacteria from adhering to bladder wall. Significantly reduces UTI recurrence in females.",
+        "dose": "Daily for prevention. Not a substitute for antibiotics in active infection.",
+        "buy_link": "https://www.amazon.in/s?k=cranberry+supplement+dog+urinary",
+        "image_url": "https://m.media-amazon.com/images/I/71c0G0iLjRL._SL1500_.jpg"
+      },
+      {
+        "name": "D-Mannose Powder",
+        "benefit": "Natural sugar that coats E. coli bacteria preventing bladder wall attachment. Works at the infection site directly in urine.",
+        "dose": "Mix into drinking water daily. Safe long-term. Combine with cranberry for best effect.",
+        "buy_link": "https://www.amazon.in/s?k=d-mannose+dog+urinary",
+        "image_url": "https://m.media-amazon.com/images/I/61pFMGpGM7L._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Complete inability to urinate = EMERGENCY — blocked urethra is fatal within hours without treatment",
+      "Recurrent UTIs (3+ per year) need investigation for bladder stones or diabetes",
+      "Always provide fresh water — diluted urine flushes the bladder and prevents bacterial growth"
+    ]
+  },
+  {
+    "id": "D016",
+    "common_name": "Dental Disease (Periodontal Disease)",
+    "aliases": ["bad breath dog", "dog teeth", "dental disease", "gum disease dog", "tartar dog", "dog tooth", "dog drooling mouth pain"],
+    "urgency": "Medium",
+    "cause": "Plaque and tartar buildup from lack of dental hygiene. Bacteria form a biofilm that inflames gums, destroys ligaments, and eventually infects the jaw bone.",
+    "warning": "Dental disease bacteria enter the bloodstream and damage the heart, kidneys, and liver. It is not just a mouth problem.",
+    "medicines": [
+      {
+        "name": "Clindamycin (post-dental extraction)",
+        "type": "Antibiotic",
+        "dispensing": "Prescription",
+        "dose": "5.5 mg/kg twice daily for 5-7 days after dental procedure",
+        "note": "Prescribed after tooth extraction to prevent jaw bone infection"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Virbac C.E.T. Enzymatic Dog Toothpaste",
+        "type": "Enzymatic Toothpaste",
+        "active": "Glucose Oxidase, Lactoperoxidase enzyme system",
+        "use": "Brush daily or minimum 3x per week. NEVER use human toothpaste — xylitol is toxic to dogs.",
+        "buy_link": "https://www.amazon.in/Virbac-CET-Enzymatic-Toothpaste-Poultry/dp/B0002AQUUM",
+        "image_url": "https://m.media-amazon.com/images/I/51PHL8WNYHL._SL1000_.jpg"
+      },
+      {
+        "name": "Tropiclean Fresh Breath Water Additive",
+        "type": "Dental Water Additive",
+        "active": "Green tea leaf extract",
+        "use": "Add 1 capful per 250ml of water daily. Odorless and tasteless — dogs accept easily.",
+        "buy_link": "https://www.amazon.in/s?k=tropiclean+water+additive+dog+dental",
+        "image_url": "https://m.media-amazon.com/images/I/61cCLlTCOVL._SL1500_.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Calcium + Vitamin D3 (Drools Absolute Calcium)",
+        "benefit": "Supports healthy tooth enamel and jaw bone density, reducing tooth loss from periodontal disease",
+        "dose": "As per body weight. Do NOT over-supplement calcium in large breed puppies.",
+        "buy_link": "https://www.amazon.in/s?k=drools+calcium+supplement+dog",
+        "image_url": "https://m.media-amazon.com/images/I/61JlE7iSZZL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER use human toothpaste — fluoride and xylitol are toxic to dogs",
+      "Professional dental cleaning under anesthesia is the ONLY way to remove subgingival tartar",
+      "Dogs over 3 years have 80% chance of periodontal disease — start dental care as a puppy"
+    ]
+  },
+  {
+    "id": "D017",
+    "common_name": "Pancreatitis",
+    "aliases": ["pancreatitis", "dog stomach pain", "dog prayer position", "dog hunched vomiting", "abdominal pain dog", "dog fatty food sick"],
+    "urgency": "High",
+    "cause": "High-fat meal, dietary indiscretion (garbage, table scraps), certain medications (steroids), or trauma triggers digestive enzyme leakage that damages surrounding pancreatic tissue.",
+    "warning": "Prayer position (front down, rear up) + vomiting + abdominal pain = potential severe pancreatitis. Emergency vet immediately.",
+    "medicines": [
+      {
+        "name": "Maropitant (Cerenia) + IV Fluids",
+        "type": "Anti-nausea + Fluid support",
+        "dispensing": "Vet / Hospital",
+        "dose": "Cerenia 1 mg/kg IV or SC once daily at vet. IV fluids continuous.",
+        "note": "Controls vomiting and allows the pancreas to rest. Nothing by mouth until vomiting stops."
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Purina Fortiflora Probiotic",
+        "benefit": "Restores gut flora disrupted by pancreatitis and antibiotic treatment",
+        "dose": "Begin only after vomiting stops and dog can eat small amounts",
+        "buy_link": "https://www.amazon.in/s?k=fortiflora+dog+probiotic",
+        "image_url": "https://m.media-amazon.com/images/I/61-pCiWl4AL._SL1500_.jpg"
+      },
+      {
+        "name": "Pancreatic Digestive Enzyme Supplement (Viokase-V)",
+        "benefit": "Replaces digestive enzymes when pancreas is damaged. Reduces workload on the inflamed pancreas.",
+        "dose": "Mix into food 20-30 minutes before feeding. Critical for EPI (Exocrine Pancreatic Insufficiency).",
+        "buy_link": "https://www.amazon.in/s?k=pancreatic+enzyme+supplement+dog",
+        "image_url": "https://m.media-amazon.com/images/I/61mfVNGdUFL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Pancreatitis can be FATAL in severe cases — do not treat at home",
+      "Once a dog has had pancreatitis, permanent low-fat diet (under 10% fat DM) is mandatory",
+      "NEVER feed table scraps, bones, or fatty foods to a dog with history of pancreatitis"
+    ]
+  },
+  {
+    "id": "D018",
+    "common_name": "Diabetes Mellitus",
+    "aliases": ["dog diabetes", "dog drinking too much", "dog urinating a lot", "diabetic dog", "dog weight loss eating well", "sudden cataracts dog"],
+    "urgency": "High",
+    "cause": "Destruction of insulin-producing beta cells (Type 1 — most common in dogs) or insulin resistance. More common in intact females and middle-aged to senior dogs.",
+    "warning": "NEVER skip insulin injections — leads to diabetic ketoacidosis (DKA), a life-threatening emergency. Watch for hypoglycemia: trembling, weakness, collapse — give corn syrup on gums and rush to vet.",
+    "medicines": [
+      {
+        "name": "Caninsulin (Porcine Insulin) 40 IU/ml",
+        "type": "Insulin",
+        "dispensing": "Prescription / Vet",
+        "dose": "Injected subcutaneously twice daily 12 hours apart. ALWAYS given after meals.",
+        "note": "Starting dose set by vet. Requires glucose curve monitoring. Never skip meals after giving insulin."
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Chromium Picolinate (Blood Sugar Support)",
+        "benefit": "Enhances insulin sensitivity and helps regulate blood glucose. May reduce insulin dose requirements.",
+        "dose": "200 mcg daily for small dogs, 400 mcg for large dogs. Use alongside prescribed insulin — NOT instead of it.",
+        "buy_link": "https://www.amazon.in/s?k=chromium+picolinate+supplement",
+        "image_url": "https://m.media-amazon.com/images/I/61rp-lFKRdL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Alpha Lipoic Acid (ALA) supplements are TOXIC to dogs — cause hypoglycemia and liver failure. Never give.",
+      "Intact female dogs have 3x diabetes risk — neutering often improves insulin sensitivity",
+      "Consistent meal times and diet are critical — any change can destabilize blood glucose"
+    ]
+  },
+  {
+    "id": "D019",
+    "common_name": "Kidney Disease (Chronic Renal Failure)",
+    "aliases": ["kidney disease", "renal failure dog", "dog drinking too much water", "CKD dog", "dog kidney", "chronic kidney disease"],
+    "urgency": "High",
+    "cause": "Aging (most common), previous kidney infections, long-term NSAID use, dehydration, leptospirosis, certain toxin ingestion, or immune-mediated disease.",
+    "warning": "NEVER give NSAIDs (Meloxicam, Carprofen) to a dog with kidney disease — they reduce blood flow to kidneys and cause acute kidney failure.",
+    "medicines": [
+      {
+        "name": "Benazepril (ACE Inhibitor)",
+        "type": "Renoprotective Agent",
+        "dispensing": "Prescription",
+        "dose": "0.25-0.5 mg/kg once daily",
+        "note": "Reduces pressure in kidney blood vessels, slowing progression of CKD"
+      },
+      {
+        "name": "Maropitant (Cerenia) Anti-nausea",
+        "type": "NK1 Antagonist",
+        "dispensing": "Prescription",
+        "dose": "1 mg/kg once daily",
+        "note": "Controls uremic nausea and significantly improves appetite and quality of life"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow Omega-3 (EPA+DHA — Renoprotective)",
+        "benefit": "Reduces glomerular inflammation. Clinical studies show it slows CKD progression and improves survival time.",
+        "dose": "40 mg EPA+DHA per kg body weight daily. One of the most evidence-based supplements for CKD.",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      },
+      {
+        "name": "Aluminum Hydroxide (Phosphate Binder)",
+        "benefit": "Binds dietary phosphorus in the gut before absorption. Reducing phosphorus is the most important dietary intervention in CKD.",
+        "dose": "Titrated by vet based on blood phosphorus levels. Mix into food.",
+        "buy_link": "https://www.amazon.in/s?k=aluminum+hydroxide+antacid",
+        "image_url": "https://m.media-amazon.com/images/I/41jJRn5dxaL.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Renal prescription diet is NOT optional — it is the most critical intervention after diagnosis",
+      "NEVER give NSAIDs to a dog with kidney disease — can trigger acute-on-chronic kidney failure",
+      "Home subcutaneous fluid therapy taught by vet can add months to years of quality life"
+    ]
+  },
+  {
+    "id": "D020",
+    "common_name": "Liver Disease (Hepatopathy)",
+    "aliases": ["liver disease", "dog jaundice", "yellow eyes dog", "liver failure dog", "hepatitis dog", "dog yellow skin", "dog liver"],
+    "urgency": "High",
+    "cause": "Toxin ingestion (xylitol, mushrooms, medications), infectious hepatitis, chronic copper accumulation (Bedlingtons, Dalmatians), portosystemic shunt, or long-term steroid use.",
+    "warning": "ANY yellow color in eyes or skin = medical emergency. Head pressing against walls = hepatic encephalopathy — emergency vet immediately.",
+    "medicines": [
+      {
+        "name": "Ursodeoxycholic Acid (UDCA / Ursodiol)",
+        "type": "Hepatoprotective",
+        "dispensing": "Prescription",
+        "dose": "10-15 mg/kg once daily with food",
+        "note": "Improves bile flow, reduces inflammation, protects liver cells. Safe for long-term use."
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "SAMe (S-Adenosyl Methionine) — Denosyl SD4",
+        "benefit": "Most evidence-based liver supplement for dogs. Replenishes glutathione (liver's primary antioxidant), directly protecting liver cells.",
+        "dose": "Give on empty stomach 1-2 hours before food. Do NOT crush the enteric coating.",
+        "buy_link": "https://www.amazon.in/s?k=denosyl+dog+liver+same",
+        "image_url": "https://m.media-amazon.com/images/I/61p7FJrgTAL._SL1500_.jpg"
+      },
+      {
+        "name": "Milk Thistle (Silymarin 70%) / Himalaya Liv.52 Vet",
+        "benefit": "Silymarin protects liver cell membranes, stimulates regeneration, and has antifibrotic properties.",
+        "dose": "20-50 mg Silymarin per kg body weight daily. Use standardized 70-80% Silymarin extract.",
+        "buy_link": "https://www.amazon.in/s?k=milk+thistle+silymarin+dog+liver",
+        "image_url": "https://m.media-amazon.com/images/I/71V7zqCbZjL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Yellow eyes or skin = EMERGENCY — see vet immediately",
+      "Head pressing against walls = hepatic encephalopathy = EMERGENCY",
+      "NEVER give Tylenol/paracetamol/acetaminophen to dogs — even one tablet causes fatal liver failure"
+    ]
+  },
+  {
+    "id": "D021",
+    "common_name": "Canine Anxiety (Separation Anxiety)",
+    "aliases": ["dog anxiety", "separation anxiety", "dog scared storms", "dog phobia", "dog barking alone", "nervous dog", "dog destructive alone", "dog trembling"],
+    "urgency": "Low",
+    "cause": "Lack of independence training in puppyhood, history of abandonment, trauma, or genetic predisposition to fear. Storm phobia often worsens with age.",
+    "warning": "Punishment during anxiety attacks makes anxiety dramatically worse. Never scold an anxious dog.",
+    "medicines": [
+      {
+        "name": "Fluoxetine (Reconcile) SSRI",
+        "type": "Antidepressant for chronic anxiety",
+        "dispensing": "Prescription",
+        "dose": "1-2 mg/kg once daily. Takes 4-6 weeks to reach full effect.",
+        "note": "Must be combined with behavioral modification to be effective. Not a standalone fix."
+      },
+      {
+        "name": "Trazodone (Situational anxiety)",
+        "type": "SARI Anxiolytic",
+        "dispensing": "Prescription",
+        "dose": "2-5 mg/kg every 6-8 hours as needed before known triggers",
+        "note": "Works within 1-2 hours. Good for storms, fireworks, vet visits."
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Adaptil DAP Diffuser + Collar",
+        "type": "Calming Pheromone",
+        "active": "Synthetic Dog Appeasing Pheromone (DAP)",
+        "use": "Plug diffuser into main room. Replace refill monthly. Collar worn continuously.",
+        "buy_link": "https://www.amazon.in/s?k=adaptil+dog+calm+diffuser+collar",
+        "image_url": "https://m.media-amazon.com/images/I/61iAqWmHqvL._SL1500_.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "L-Theanine + Melatonin Calming Chew (Zesty Paws Calming Bites)",
+        "benefit": "L-Theanine raises GABA and serotonin producing calm without sedation. Melatonin reduces physiological stress response.",
+        "dose": "Give 30-60 minutes before trigger. Can be used daily for chronic anxiety.",
+        "buy_link": "https://www.amazon.in/s?k=calming+chews+dog+anxiety+l-theanine",
+        "image_url": "https://m.media-amazon.com/images/I/71j1JD6fSQL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER use human CBD products — many contain xylitol (toxic) or untested concentrations",
+      "Punishment worsens anxiety — never scold or punish an anxious dog",
+      "Meclizine (OTC motion sickness tablet) is safe at 25 mg/dose for vestibular or travel anxiety — ask vet first"
+    ]
+  },
+  {
+    "id": "D022",
+    "common_name": "Pyoderma (Bacterial Skin Infection)",
+    "aliases": ["pyoderma", "dog pimples belly", "bacterial skin infection dog", "dog skin pustules", "dog skin crusts", "staphylococcus dog skin"],
+    "urgency": "Medium",
+    "cause": "Staphylococcus pseudintermedius overgrowth following skin trauma, moisture, allergies (most common root cause), hormonal imbalance, or immune suppression.",
+    "warning": "Recurrent pyoderma almost always has an underlying cause (allergies, hypothyroidism, Cushing's). Treating only the bacteria without addressing root cause leads to relapse.",
+    "medicines": [
+      {
+        "name": "Amoxicillin-Clavulanate (Clavamox / Synulox)",
+        "type": "Beta-lactam + Beta-lactamase Inhibitor",
+        "dispensing": "Prescription",
+        "dose": "12.5-25 mg/kg twice daily with food for 3-8 weeks",
+        "note": "Complete the FULL course — stopping early causes antibiotic-resistant bacteria (MRSP)"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Virbac Pyohex Shampoo (Chlorhexidine 3% + Miconazole 1%)",
+        "type": "Antibacterial + Antifungal Shampoo",
+        "active": "Chlorhexidine Gluconate 3%, Miconazole Nitrate 1%",
+        "use": "Leave on 5-10 minutes before rinsing. Use twice weekly throughout antibiotic course.",
+        "buy_link": "https://www.amazon.in/s?k=virbac+pyohex+shampoo+dog",
+        "image_url": "https://m.media-amazon.com/images/I/41aW-jLXvGL.jpg"
+      },
+      {
+        "name": "Chlorhexidine 2% Spray",
+        "type": "Antibacterial Spray (Between baths)",
+        "active": "Chlorhexidine Gluconate 2%",
+        "use": "Spray on affected areas, allow to dry. Use daily between shampoo days.",
+        "buy_link": "https://www.amazon.in/s?k=chlorhexidine+2+spray+dog",
+        "image_url": "https://m.media-amazon.com/images/I/61SL5zTtRML._SL1500_.jpg"
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Himalaya Furglow (Omega-3 — Skin Barrier Repair)",
+        "benefit": "Repairs the defective skin barrier that allowed bacterial overgrowth. Reduces allergy-driven inflammation triggering recurrent pyoderma.",
+        "dose": "Daily with food",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Never stop antibiotics early even if skin looks better — biofilms need the full course to eradicate",
+      "MRSP (Methicillin-Resistant Staph) is emerging in dogs — culture before treating recurrent non-responding cases",
+      "Recurrent pyoderma without clear cause needs full hormonal and allergy workup"
+    ]
+  },
+  {
+    "id": "D023",
+    "common_name": "Epilepsy (Seizures)",
+    "aliases": ["dog seizures", "dog epilepsy", "dog fitting", "dog convulsions", "dog falling shaking", "dog paddling legs"],
+    "urgency": "High",
+    "cause": "Idiopathic epilepsy (genetic — Beagles, Labs, German Shepherds most common). Secondary epilepsy from brain tumor, head trauma, toxin ingestion, hypoglycemia, or liver disease.",
+    "warning": "Seizure lasting more than 5 minutes OR multiple seizures within 1 hour = STATUS EPILEPTICUS — rush to emergency vet immediately. This is fatal without treatment.",
+    "medicines": [
+      {
+        "name": "Phenobarbital",
+        "type": "Barbiturate Anticonvulsant",
+        "dispensing": "Prescription / Controlled Drug",
+        "dose": "2-3 mg/kg twice daily. Serum levels tested 2 weeks after starting.",
+        "note": "Most effective first-line treatment. Requires liver enzyme monitoring every 6 months."
+      },
+      {
+        "name": "Potassium Bromide (KBr)",
+        "type": "Anticonvulsant — Add-on",
+        "dispensing": "Prescription",
+        "dose": "30-40 mg/kg once daily mixed into food",
+        "note": "Added to Phenobarbital for better control. Takes 3-4 months to reach steady-state levels."
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "MCT Oil (Medium Chain Triglycerides)",
+        "benefit": "Provides alternative fuel for neurons, reducing seizure frequency. Studies show up to 50% seizure reduction as adjunct to medication.",
+        "dose": "Start 0.5 ml/kg daily, increase over 2-4 weeks. Too much causes diarrhea.",
+        "buy_link": "https://www.amazon.in/s?k=mct+oil+pure+dog",
+        "image_url": "https://m.media-amazon.com/images/I/71VjdJ8-nRL._SL1500_.jpg"
+      },
+      {
+        "name": "Himalaya Furglow Omega-3 (DHA — Neuroprotective)",
+        "benefit": "DHA is a primary structural component of brain cell membranes. Supports neurological health and may reduce seizure severity.",
+        "dose": "Daily with food",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "During seizure: stay calm, time it, do NOT put anything in dog's mouth — they cannot swallow their tongue",
+      "NEVER stop anticonvulsant medication suddenly — causes severe rebound seizures that can be fatal",
+      "5+ minute seizure = emergency vet immediately"
+    ]
+  },
+  {
+    "id": "D024",
+    "common_name": "Sprain or Strain (Soft Tissue Injury)",
+    "aliases": ["sprain", "strain", "dog limping", "dog leg pain", "soft tissue injury", "dog not putting weight on leg", "dog limp after exercise"],
+    "urgency": "Medium",
+    "cause": "Overstretching or tearing of ligaments (sprain) or muscles/tendons (strain) from sudden movements, jumping, or rough play. Common in active and sporting breeds.",
+    "warning": "NEVER give human painkillers (ibuprofen, paracetamol, aspirin, Crocin) — all are toxic and potentially fatal to dogs. Only use dog-specific NSAIDs prescribed by a vet.",
+    "medicines": [
+      {
+        "name": "Meloxicam (Metacam) — Dog-safe NSAID only",
+        "type": "Non-Steroidal Anti-Inflammatory",
+        "dispensing": "Prescription",
+        "dose": "0.1 mg/kg once daily with food for 5-7 days",
+        "note": "ONLY safe painkiller for dogs. Never give ibuprofen, aspirin, or paracetamol — these are fatal."
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Cold Pack Therapy (First 24-48 hours)",
+        "type": "Cold Compress",
+        "active": "Cold therapy",
+        "use": "Wrap ice pack in towel, apply to swollen area 10-15 minutes 3x daily for first 48 hours. Never apply ice directly to skin.",
+        "buy_link": null,
+        "image_url": null
+      },
+      {
+        "name": "Warm Compress (After 48 hours)",
+        "type": "Heat Therapy",
+        "active": "Moist heat",
+        "use": "After first 48 hours, switch to warm damp cloth for 10-15 minutes 2x daily to improve circulation and healing.",
+        "buy_link": null,
+        "image_url": null
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Glucosamine + Chondroitin (Cosequin DS)",
+        "benefit": "Supports ligament and cartilage repair during recovery. Reduces secondary joint inflammation.",
+        "dose": "Double loading dose for first 4 weeks during recovery",
+        "buy_link": "https://www.amazon.in/s?k=glucosamine+chondroitin+dog",
+        "image_url": "https://m.media-amazon.com/images/I/71qBvSCzwNL._SL1500_.jpg"
+      },
+      {
+        "name": "Himalaya Furglow Omega-3",
+        "benefit": "Reduces acute joint and soft tissue inflammation during injury recovery",
+        "dose": "Daily with food during recovery period",
+        "buy_link": "https://www.amazon.in/Himalaya-Furglow-Oral-Coat-Conditioner/dp/B00P7PRCXG",
+        "image_url": "https://m.media-amazon.com/images/I/71fzIyjLAxL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER give ibuprofen, aspirin, paracetamol, or Crocin — ALL are toxic to dogs and can cause fatal kidney failure",
+      "Strict rest for minimum 2 weeks — no running, jumping, or stairs",
+      "If dog is completely non-weight-bearing for more than 24 hours — see vet immediately to rule out fracture or ligament rupture"
+    ]
+  },
+  {
+    "id": "D025",
+    "common_name": "Heatstroke",
+    "aliases": ["heatstroke", "dog overheating", "dog heat exhaustion", "dog in hot car", "dog panting heavily", "dog collapsed heat", "dog red gums panting"],
+    "urgency": "Critical",
+    "cause": "Being left in a hot car, overexertion in hot humid weather, lack of shade/water. Brachycephalic breeds (Bulldogs, Pugs, French Bulldogs) cannot pant efficiently and overheat faster.",
+    "warning": "NEVER use ice or ice water to cool a heatstroke dog — causes blood vessel spasm that traps heat inside the core and can worsen outcome.",
+    "medicines": [
+      {
+        "name": "IV Normal Saline (Emergency Internal Cooling + Shock)",
+        "type": "IV Fluid Therapy — Vet Emergency",
+        "dispensing": "Vet Emergency Only",
+        "dose": "IV fluid resuscitation at vet clinic to cool internally and reverse shock",
+        "note": "Most effective cooling method — more efficient than external cooling alone"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Tepid Water Cooling Protocol (Emergency First Aid)",
+        "type": "Emergency Cooling",
+        "active": "Room temperature water",
+        "use": "Apply room-temperature (NOT cold/ice) water to armpits, groin, paws. Fan continuously. Stop cooling when temperature reaches 39.5°C to prevent rebound hypothermia.",
+        "buy_link": null,
+        "image_url": null
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Electral / ORS Oral Rehydration Salts",
+        "benefit": "Replaces electrolytes lost through extreme panting and hyperthermia. Supports kidney recovery post-heatstroke.",
+        "dose": "Offer freely once conscious and swallowing. Do NOT give to unconscious dog. Follow with IV fluids at vet.",
+        "buy_link": "https://www.amazon.in/s?k=electral+oral+rehydration+salts",
+        "image_url": "https://m.media-amazon.com/images/I/51pM3HJTFAL._SL1500_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "NEVER leave a dog in a parked car even for 5 minutes — temperature reaches fatal levels in under 10 minutes",
+      "NEVER use ice or ice water — causes peripheral vasoconstriction trapping heat in core",
+      "Frantic panting + bright red gums + collapse = heatstroke emergency. Rush to vet immediately.",
+      "Brachycephalic breeds (Bulldogs, Pugs, Frenchies) are at extreme risk even in mild heat"
+    ]
+  }
+]

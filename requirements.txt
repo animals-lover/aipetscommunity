@@ -2,5 +2,6 @@ fastapi
 uvicorn
 python-dotenv
 groq
-opencv-python
+opencv-python-headless
 numpy
+python-multipart

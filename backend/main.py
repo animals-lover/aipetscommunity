@@ -14,7 +14,7 @@ import json
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from backend.ai_engine import analyze_pet, analyze_pet_video,analyze_pet_text
+from ai_engine import analyze_pet, analyze_pet_video,analyze_pet_text
 import uvicorn
 from fastapi.staticfiles import StaticFiles
 

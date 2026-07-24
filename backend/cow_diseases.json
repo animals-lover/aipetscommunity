@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "C001",
+    "common_name": "Foot and Mouth Disease",
+    "aliases": [
+      "FMD",
+      "mouth blisters cow",
+      "foot blisters cattle"
+    ],
+    "urgency": "High",
+    "cause": "Highly contagious FMD virus causes blisters on mouth, tongue, gums, and between hooves. Spreads fast through direct contact, air, feed, and equipment.",
+    "warning": "Notifiable disease in most countries, report to local veterinary/animal husbandry department immediately. No cure, only supportive care and outbreak control.",
+    "medicines": [
+      {
+        "name": "Supportive antibiotics (for secondary infection)",
+        "type": "Broad-spectrum antibiotic",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet",
+        "note": "No specific antiviral cure, treats secondary bacterial infection only"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Potassium permanganate solution",
+        "type": "Antiseptic wash",
+        "active": "Potassium permanganate diluted",
+        "use": "Wash mouth and hoof lesions 2x daily to prevent secondary infection",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      
+      {
+        "name": "Multivitamin + Mineral Mix (Cattle)",
+        "benefit": "General immune and healing support, replaces nutrients lost during illness",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=cattle+multivitamin+mineral+mixture",
+        "image_url": "https://m.media-amazon.com/images/I/71VnprJUOyS._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Isolate affected animal immediately, highly contagious to other cattle",
+      "Vaccinate herd regularly in endemic areas",
+      "Restrict movement of animals and people from infected farm",
+      "Milk from infected cow should not be given raw to calves or consumed"
+    ]
+  },
+  {
+    "id": "C002",
+    "common_name": "Mastitis (Udder Infection)",
+    "aliases": [
+      "mastitis cow",
+      "udder infection",
+      "swollen udder",
+      "clotted milk"
+    ],
+    "urgency": "Medium",
+    "cause": "Bacterial infection of the udder (Staphylococcus, Streptococcus, E. coli) usually from poor milking hygiene, injury, or dirty bedding.",
+    "warning": "Severe cases (hot, hard, painful udder with fever) can become toxic mastitis, a life-threatening emergency needing immediate vet care.",
+    "medicines": [
+      {
+        "name": "Intramammary Antibiotic Infusion (Cephalosporin-based)",
+        "type": "Intramammary antibiotic",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet, infused into affected quarter after milking",
+        "note": "Follow milk withdrawal period strictly before selling milk"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Warm compress on udder",
+        "type": "Home care",
+        "active": "N/A",
+        "use": "Apply warm cloth 10-15 min before milking to ease pain and improve milk flow",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Vitamin E + Selenium Supplement",
+        "benefit": "Supports udder tissue health and immune response during infection",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=vitamin+e+selenium+cattle+supplement",
+        "image_url": "https://m.media-amazon.com/images/I/71V7X7y7PgL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Milk from treated quarter must be discarded during withdrawal period, do not sell or feed to calves",
+      "Strip out infected milk fully at each milking, do not let it sit in udder",
+      "Maintain clean, dry bedding to prevent recurrence"
+    ]
+  },
+  {
+    "id": "C003",
+    "common_name": "Bloat (Ruminal Tympany)",
+    "aliases": [
+      "bloat cow",
+      "gas bloat",
+      "stomach swelling cattle",
+      "left side swelling"
+    ],
+    "urgency": "Critical",
+    "cause": "Excess gas trapped in the rumen from eating too much lush legume pasture, grain overload, or blocked esophagus, causing visible left-side belly swelling.",
+    "warning": "Severe bloat can compress the lungs and heart causing death within an hour, this is an emergency needing immediate action.",
+    "medicines": [
+      {
+        "name": "Anti-bloat drench (Poloxalene or vegetable oil)",
+        "type": "Anti-foaming agent",
+        "dispensing": "Vet/OTC",
+        "dose": "As per vet weight-based dosing, drenched orally",
+        "note": "Severe cases need vet to pass a stomach tube or perform emergency rumen puncture (trocarization)"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Rumen Probiotic/Yeast Culture",
+        "benefit": "Restores healthy rumen microbes and digestion after illness or treatment",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=rumen+probiotic+yeast+culture+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/71xsn7z2hoL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "If cow is struggling to breathe and collapsing, this is a life-threatening emergency, call vet immediately",
+      "Avoid sudden access to lush wet legume pasture (clover, alfalfa)",
+      "Never leave bloated cattle unattended"
+    ]
+  },
+  {
+    "id": "C004",
+    "common_name": "Milk Fever",
+    "aliases": [
+      "milk fever cow",
+      "low calcium cow",
+      "hypocalcemia cattle",
+      "down cow after calving"
+    ],
+    "urgency": "Critical",
+    "cause": "Sudden drop in blood calcium level around calving time, as huge calcium demand goes into milk production, common in high-yielding dairy cows.",
+    "warning": "Cow becomes unable to stand, weak, and can develop bloat or die if untreated, needs emergency calcium therapy.",
+    "medicines": [
+      {
+        "name": "Calcium Borogluconate 23% IV/SC",
+        "type": "Injectable calcium",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet, given slowly IV while monitoring heart",
+        "note": "Give slowly, too fast IV calcium can cause fatal heart problems"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Vitamin D3 + Calcium Bolus",
+        "benefit": "Supports calcium absorption and bone/muscle function around calving",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=calcium+vitamin+d3+bolus+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/71ZPxq6+lxL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Down cow unable to rise after calving needs vet attention same day",
+      "Feed a proper pre-calving (dry period) diet to reduce risk",
+      "Do not force a down cow to stand roughly, support gently"
+    ]
+  },
+  {
+    "id": "C005",
+    "common_name": "Ketosis",
+    "aliases": [
+      "ketosis cow",
+      "acetonemia",
+      "off feed cow after calving"
+    ],
+    "urgency": "Medium",
+    "cause": "Energy deficiency in early lactation when milk production demand exceeds feed intake, body breaks down fat rapidly producing ketones.",
+    "warning": "Cow shows reduced appetite, weight loss, and sweet/acetone smell on breath, can progress to nervous signs if untreated.",
+    "medicines": [
+      {
+        "name": "Propylene Glycol Drench",
+        "type": "Glucose precursor",
+        "dispensing": "OTC/Vet",
+        "dose": "As per vet, drenched daily for 3-5 days",
+        "note": "Dextrose IV may be needed by vet in severe cases"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Niacin (Vitamin B3) Supplement",
+        "benefit": "Supports energy metabolism and reduces fat breakdown in early lactation",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=niacin+supplement+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/61vab9P7s-L._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Ensure proper energy-dense feeding in transition period before and after calving",
+      "Avoid sudden feed changes around calving",
+      "Persistent off-feed cows need vet bloodwork to confirm diagnosis"
+    ]
+  },
+  {
+    "id": "C006",
+    "common_name": "Foot Rot",
+    "aliases": [
+      "foot rot cow",
+      "hoof infection cattle",
+      "lame cow swollen foot"
+    ],
+    "urgency": "Medium",
+    "cause": "Bacterial infection (Fusobacterium necrophorum) enters through skin between the claws, often from wet, muddy, or unhygienic ground conditions.",
+    "warning": "Untreated foot rot can spread to joints and bone causing permanent lameness, treat early.",
+    "medicines": [
+      {
+        "name": "Oxytetracycline Injection",
+        "type": "Antibiotic",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet weight-based dosing",
+        "note": "Follow meat/milk withdrawal period"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Copper Sulfate Foot Bath",
+        "type": "Antiseptic foot bath",
+        "active": "Copper sulfate solution",
+        "use": "Walk cattle through foot bath regularly to prevent and treat foot rot",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Zinc + Biotin Hoof Supplement",
+        "benefit": "Strengthens hoof horn and skin, supports faster healing of foot lesions",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=zinc+biotin+hoof+supplement+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/61rwuneUPhL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Keep walking areas dry and clean to prevent foot rot",
+      "Isolate and treat lame animals promptly to prevent spread",
+      "Trim overgrown hooves regularly"
+    ]
+  },
+  {
+    "id": "C007",
+    "common_name": "Lumpy Skin Disease",
+    "aliases": [
+      "LSD cow",
+      "skin nodules cattle",
+      "lumpy skin cattle"
+    ],
+    "urgency": "High",
+    "cause": "Lumpy Skin Disease virus spread by biting insects (flies, mosquitoes, ticks), causes firm round skin nodules all over the body.",
+    "warning": "Notifiable disease in most regions, can cause major milk drop and economic loss, vaccination is the main prevention.",
+    "medicines": [
+      {
+        "name": "Supportive antibiotics (for secondary skin infection)",
+        "type": "Broad-spectrum antibiotic",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet",
+        "note": "No specific antiviral cure available, supportive care only"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Antiseptic wound spray for nodules",
+        "type": "Topical antiseptic",
+        "active": "Povidone-iodine",
+        "use": "Apply to open or ulcerated nodules to prevent fly strike and secondary infection",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Multivitamin Immune Support Mix",
+        "benefit": "General immune support and nutrient replacement during viral illness",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=cattle+immune+support+multivitamin",
+        "image_url": "https://m.media-amazon.com/images/I/61bZ9dfe4JL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Vaccinate herd annually in endemic areas",
+      "Control biting flies and ticks around cattle sheds",
+      "Report suspected cases to local veterinary authority"
+    ]
+  },
+  {
+    "id": "C008",
+    "common_name": "Brucellosis",
+    "aliases": [
+      "brucellosis cow",
+      "contagious abortion",
+      "Bang's disease"
+    ],
+    "urgency": "High",
+    "cause": "Brucella bacteria causing abortion in late pregnancy, retained placenta, and infertility, spread through contact with infected birth fluids or milk.",
+    "warning": "Zoonotic disease, can infect humans (undulant fever) through unpasteurized milk or handling infected birth material, wear gloves.",
+    "medicines": [],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "General Nutrition/Mineral Mix",
+        "benefit": "Maintains basic nutrition and mineral balance, supportive only, does not treat the disease",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=cattle+mineral+mixture+supplement",
+        "image_url": "https://m.media-amazon.com/images/I/618a0GvSEvL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "No effective treatment in cattle, infected animals are usually culled per government policy",
+      "Never drink unpasteurized milk from an unvaccinated/untested herd",
+      "Vaccinate calves as per national brucellosis control program",
+      "Wear gloves when handling aborted fetus or afterbirth"
+    ]
+  },
+  {
+    "id": "C009",
+    "common_name": "Anthrax",
+    "aliases": [
+      "anthrax cow",
+      "sudden death cattle",
+      "splenic fever"
+    ],
+    "urgency": "Critical",
+    "cause": "Bacillus anthracis bacteria from contaminated soil, often causes sudden death with bleeding from natural body openings, no time for symptoms in acute cases.",
+    "warning": "Zoonotic and notifiable disease, do NOT open or perform post-mortem on a suspected anthrax carcass, spores contaminate ground for decades.",
+    "medicines": [
+      {
+        "name": "Penicillin (early/suspected cases only)",
+        "type": "Antibiotic",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet, only if caught before sudden death",
+        "note": "Often too late as death can be sudden, prevention via vaccination is key"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [],
+    "safety_warnings": [
+      "Never cut open a carcass suspected of anthrax, report to vet/authorities immediately",
+      "Bury or burn carcass deeply as directed by authorities, do not skin or handle",
+      "Vaccinate herds annually in endemic areas",
+      "Extremely dangerous to humans, avoid all direct contact with suspect carcass"
+    ]
+  },
+  {
+    "id": "C010",
+    "common_name": "Blackleg",
+    "aliases": [
+      "black quarter",
+      "blackleg cattle",
+      "muscle gas gangrene cow"
+    ],
+    "urgency": "Critical",
+    "cause": "Clostridium bacteria spores in soil enter through wounds or are ingested, cause gas gangrene in large muscles, mostly affects young cattle 6 months-2 years.",
+    "warning": "Rapidly fatal, affected muscle feels crackly (gas under skin) and animal is severely lame with high fever, often found dead.",
+    "medicines": [
+      {
+        "name": "High-dose Penicillin",
+        "type": "Antibiotic",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet, only effective if caught very early",
+        "note": "Disease often progresses too fast for treatment to succeed"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [],
+    "safety_warnings": [
+      "Vaccinate young cattle annually, this is the main effective prevention",
+      "Do not open carcass without vet guidance, spores contaminate pasture",
+      "Report sudden deaths in young cattle to vet for diagnosis"
+    ]
+  },
+  {
+    "id": "C011",
+    "common_name": "Hemorrhagic Septicemia",
+    "aliases": [
+      "HS cattle",
+      "shipping fever cow",
+      "pasteurellosis cattle"
+    ],
+    "urgency": "Critical",
+    "cause": "Pasteurella multocida bacterial infection, often triggered by stress (transport, monsoon, overcrowding), causes high fever, throat swelling, and rapid death.",
+    "warning": "Can kill within 24 hours of first signs, throat/neck swelling with difficulty breathing is a medical emergency.",
+    "medicines": [
+      {
+        "name": "Oxytetracycline or Sulfonamide Injection",
+        "type": "Antibiotic",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet, early treatment critical",
+        "note": "Must be started at first sign of fever for best chance of survival"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Electrolyte + Glucose Oral Drench",
+        "benefit": "Prevents dehydration and energy crash when appetite/water intake drops",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/SHELTER-Sheltrolyte-Oral-Electrolyte-Anti-Stress/dp/B0GCF69S1Z/ref=sr_1_2?crid=8UV454DQH2GR&dib=eyJ2IjoiMSJ9.k1zwX5ixTFfDC4JM_9X9hJEBUKbOT4gA-r1BuTGXTgvsliRQO6f2b51gyC0VQPgbx_qOt6912YuGDt4mpsYVu6zDOJTI0CgwQh1lZKba-4FoD-HoTU2HUGjcvaJOoquQe8keAzs-zwBrY9zFRSIVuSpKFHoNAfPl9Dtvcw1jkmIcECIEwnJTNqemDM17cetZIYnqAEXNM8u4GOpxrBH5d_fjsveQPjnKR0IUW30ULvM1DMXEnzXkpJBuVlevygHK0XWqaqeeFhd0RxmvrLfX7wbgzByBdmaF60eJnoVy9x4.I7gfPqAy3pJ56hhNAon_P__KIL3ejqSsHJCDSt2wT4E&dib_tag=se&keywords=electrolyte+glucose+powder+for+cows&qid=1784474402&sprefix=electrolyte+glucose+powder+for+c%2Caps%2C773&sr=8-2",
+        "image_url": "https://m.media-amazon.com/images/I/7139vpUXfrL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Vaccinate before monsoon season in endemic areas, this disease often flares with rain",
+      "Reduce transport stress and overcrowding",
+      "Isolate sick animals immediately, highly contagious"
+    ]
+  },
+  {
+    "id": "C012",
+    "common_name": "Calf Scours (Calf Diarrhea)",
+    "aliases": [
+      "calf diarrhea",
+      "calf scours",
+      "white scours",
+      "loose motion calf"
+    ],
+    "urgency": "High",
+    "cause": "Bacterial (E. coli, Salmonella), viral (Rotavirus, Coronavirus), or parasitic (Cryptosporidia) infection in young calves, worsened by poor colostrum intake.",
+    "warning": "Calves dehydrate very fast, severe scours can kill within 24-48 hours if untreated, this is an emergency in young calves.",
+    "medicines": [
+      {
+        "name": "Oral/IV Electrolyte Fluid Therapy",
+        "type": "Rehydration therapy",
+        "dispensing": "Vet/OTC",
+        "dose": "As per vet, frequent small amounts or IV in severe dehydration",
+        "note": "Fluid therapy is the most important treatment, more critical than antibiotics"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Oral Rehydration Salts for Calves",
+        "benefit": "Replaces fluids and electrolytes lost through diarrhea, critical in young calves",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/ORCALYTE-COW-225GM-REHYDRATION-Supplement-Dehydration/dp/B0BVBSMGJ7/ref=sr_1_1?crid=2WEUQ5C04QQW6&dib=eyJ2IjoiMSJ9.dgUx0jmKLfARg8AuHgmIzOXFo0ecMp6lEYpWtIEVuIhvd2NDni-MFQfczHN4C89eDSaeW4smEbgOpHQ0E_N4r6KLvoNh_8rTZOPORWKht26FXCe-hYTGVYQDvMkDqSmZN9pfXXM8NXPCqVmcXQi0KFNNCT0CrmgpHNSaxfTsv02J0S2TixJ8URXEqXd8hUIdRH6GIzbcfsHn0ee6SwTC9eL8ko4vHIk_RLsuVH6vQggevB1YeAYQUL5D4SRLAKG2sZSZYuPRJlAyMXwkRD5f3FDdUlewVWPLeyQhGBDtB-Y.s8I8FfF2GYtPAF1QoKSArFiKTuUsPhGSBydzbY5gtD0&dib_tag=se&keywords=oral+rehydration+salts+for+cows&qid=1784474724&sprefix=oral+rehydration+salts+for+cow%2Caps%2C578&sr=8-1",
+        "image_url": "https://m.media-amazon.com/images/I/612UWPAk8+L._AC_UL320_.jpg"
+      },
+      {
+        "name": "Calf Probiotic Powder",
+        "benefit": "Restores healthy gut bacteria after diarrhea and antibiotic treatment",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/VETENEX-Pro-Calf-Plus-Supplement/dp/B0CTZP4ST5/ref=sr_1_2?crid=2Y9L8VDG6K8LH&dib=eyJ2IjoiMSJ9.Rdv8kGN0iO7MeiUWmjW67s4eEdb0FNJ2vE17uNZj_flGMbVRaRnN6NPAAyacaEAIK9qIYYLut7FIG1wgaEYtkaQaLGGX5u9_tYKuVJo-mShmrkFyIPO7U4uoow-XjjinXkEvUzbnukpgvIz8IeC7-UO9ZJt-L2ZytZnAT5dEfi20H4RqCagPnqnEd4jGkj12eo9wns580n78J-K60D39VEAtSlp6l6ASuR7HWyVBuVv5Fnah8-ktJLIcdSOkSRroFOYfb8minpzJkIZKOTgeOjOPEB2rePSBa_fys44tA54.pYrsiX8LgGEQ2xWLJBi0Lq6_jKzFwxlmjh2gKoSy8nI&dib_tag=se&keywords=calf+probiotic+powder+for+cows&qid=1784474779&sprefix=calf+probiotic+powder+for+cows%2Caps%2C350&sr=8-2",
+        "image_url": "https://m.media-amazon.com/images/I/61AndVa4BkL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Ensure calf receives adequate colostrum within first 6 hours of birth to build immunity",
+      "Severely weak or unable-to-stand calves need emergency vet IV fluids",
+      "Keep calving area clean and dry to reduce infection risk"
+    ]
+  },
+  {
+    "id": "C013",
+    "common_name": "Pneumonia (Calf/Cattle Pneumonia)",
+    "aliases": [
+      "cattle pneumonia",
+      "calf pneumonia",
+      "lung infection cow",
+      "coughing cattle"
+    ],
+    "urgency": "High",
+    "cause": "Bacterial or viral respiratory infection, often triggered by cold weather, poor ventilation, overcrowding, or transport stress.",
+    "warning": "Rapid or labored breathing with fever needs prompt treatment, can progress to fatal lung damage if delayed.",
+    "medicines": [
+      {
+        "name": "Oxytetracycline or Florfenicol Injection",
+        "type": "Antibiotic",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet weight-based dosing",
+        "note": "Follow milk/meat withdrawal period strictly"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Cod Liver Oil / Vitamin A+D Supplement",
+        "benefit": "Supports respiratory tissue healing and general immunity",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=cod+liver+oil+vitamin+a+d+cattle",
+        "image_url": ""
+      }
+    ],
+    "safety_warnings": [
+      "Ensure good ventilation and dry bedding in cattle sheds",
+      "Isolate coughing animals to reduce spread",
+      "Vaccinate calves against common respiratory pathogens where available"
+    ]
+  },
+  {
+    "id": "C014",
+    "common_name": "Tick Fever (Babesiosis/Theileriosis)",
+    "aliases": [
+      "tick fever cattle",
+      "redwater cow",
+      "babesiosis cow",
+      "theileriosis cattle"
+    ],
+    "urgency": "High",
+    "cause": "Blood parasites (Babesia or Theileria) transmitted by tick bites, destroy red blood cells causing fever, weakness, and dark red-brown urine.",
+    "warning": "Red-brown urine with high fever is a medical emergency, severe anemia can be fatal without prompt treatment.",
+    "medicines": [
+      {
+        "name": "Imidocarb Dipropionate or Buparvaquone",
+        "type": "Antiprotozoal",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet based on species of parasite and severity",
+        "note": "Different drugs used for Babesia vs Theileria, vet diagnosis needed"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Tick control spray/pour-on for herd",
+        "type": "Acaricide",
+        "active": "Amitraz or Deltamethrin",
+        "use": "Apply regularly per label to prevent tick infestation",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Iron + Vitamin B12 Supplement",
+        "benefit": "Supports red blood cell recovery after anemia from blood parasite damage",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=iron+vitamin+b12+cattle+supplement",
+        "image_url": "https://m.media-amazon.com/images/I/71YxnhoUjLL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Regular tick control is the best prevention",
+      "Dark red-brown urine in cattle needs same-day vet attention",
+      "New animals introduced to herd should be checked and treated for ticks"
+    ]
+  },
+  {
+    "id": "C015",
+    "common_name": "Retained Placenta",
+    "aliases": [
+      "retained afterbirth cow",
+      "placenta not passed",
+      "uterus infection after calving"
+    ],
+    "urgency": "Medium",
+    "cause": "Placenta fails to expel within 12-24 hours after calving, due to calcium deficiency, difficult calving, infection, or nutritional issues.",
+    "warning": "Retained placenta left too long can cause severe uterine infection (metritis) and toxic illness, needs vet attention if not passed within 24 hours.",
+    "medicines": [
+      {
+        "name": "Antibiotic uterine bolus/injection",
+        "type": "Antibiotic",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet",
+        "note": "Manual removal only performed by vet, never pull placenta forcefully at home"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Calcium/Phosphorus Mineral Bolus",
+        "benefit": "Supports uterine muscle contraction and mineral balance around calving",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=calcium+phosphorus+bolus+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/61CcAWgb5pL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Never forcefully pull on retained placenta, can cause uterine damage and severe bleeding",
+      "Watch for fever, foul discharge, or off-feed signs indicating infection",
+      "Call vet if placenta is not passed within 24 hours"
+    ]
+  },
+  {
+    "id": "C016",
+    "common_name": "Displaced Abomasum",
+    "aliases": [
+      "twisted stomach cow",
+      "LDA cattle",
+      "displaced abomasum cow"
+    ],
+    "urgency": "High",
+    "cause": "The abomasum (true stomach) fills with gas and shifts out of normal position, usually left side, common in high-producing dairy cows shortly after calving.",
+    "warning": "Cow goes off feed with reduced milk and a hollow 'ping' sound heard on the flank, needs vet diagnosis and often surgical correction.",
+    "medicines": [
+      {
+        "name": "Vet-directed surgical correction",
+        "type": "Surgical procedure",
+        "dispensing": "Vet Only",
+        "dose": "N/A",
+        "note": "Medical rolling technique may be tried by vet in early mild cases, but surgery is often needed"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Rumen Probiotic/Yeast Culture",
+        "benefit": "Restores healthy rumen microbes and digestion after illness or treatment",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=rumen+probiotic+yeast+culture+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/616Wu0do+gL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Off-feed cow after calving with reduced milk needs prompt vet exam",
+      "Proper transition period feeding reduces risk",
+      "Do not delay, condition worsens the longer it is untreated"
+    ]
+  },
+  {
+    "id": "C017",
+    "common_name": "Ringworm",
+    "aliases": [
+      "ringworm cattle",
+      "cow skin fungus",
+      "circular bald patch cow"
+    ],
+    "urgency": "Low",
+    "cause": "Trichophyton fungus causes circular grey-white crusty patches of hair loss, spreads through direct contact and shared equipment, common in young/housed cattle.",
+    "warning": "Zoonotic, can spread to humans especially children handling the animal, wear gloves.",
+    "medicines": [],
+    "topical_treatments": [
+      {
+        "name": "Iodine-based Antifungal Solution",
+        "type": "Topical antifungal",
+        "active": "Povidone-iodine or Chlorhexidine",
+        "use": "Apply to affected patches daily until healed",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Zinc + Biotin Hoof Supplement",
+        "benefit": "Strengthens hoof horn and skin, supports faster healing of foot lesions",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=zinc+biotin+hoof+supplement+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/618a0GvSEvL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Zoonotic, wear gloves when treating and wash hands after contact",
+      "Disinfect brushes, halters and shared equipment",
+      "Isolate affected animal from herd during treatment"
+    ]
+  },
+  {
+    "id": "C018",
+    "common_name": "Pinkeye (Infectious Bovine Keratoconjunctivitis)",
+    "aliases": [
+      "pinkeye cattle",
+      "cow eye infection",
+      "cattle eye ulcer"
+    ],
+    "urgency": "Medium",
+    "cause": "Moraxella bovis bacteria infection of the eye, worsened by flies, dust, and bright sunlight, causes watery eyes, redness, and corneal ulcers.",
+    "warning": "Untreated cases can progress to a white corneal scar or permanent blindness in the affected eye.",
+    "medicines": [
+      {
+        "name": "Oxytetracycline Eye Spray/Injection",
+        "type": "Antibiotic",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet",
+        "note": "Long-acting antibiotic injection often used alongside eye treatment"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Antibiotic Eye Ointment",
+        "type": "Topical eye ointment",
+        "active": "Tetracycline ophthalmic ointment",
+        "use": "Apply directly to affected eye as per vet direction",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Vitamin A Supplement",
+        "benefit": "Supports eye tissue health and healing of corneal irritation",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=vitamin+a+supplement+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/614YPNGAxoL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Control flies around the herd, they spread infection between animals",
+      "Isolate severely affected animals",
+      "Provide shade to reduce sunlight irritation to eyes"
+    ]
+  },
+  {
+    "id": "C019",
+    "common_name": "Warts",
+    "aliases": [
+      "cattle warts",
+      "skin papilloma cow",
+      "cow warts face"
+    ],
+    "urgency": "Low",
+    "cause": "Bovine Papillomavirus causes wart growths usually on head, neck, and shoulders, most common in young cattle, spreads through direct contact.",
+    "warning": "Usually harmless and self-resolving within a few months as the immune system matures, but large warts obstructing eyes/mouth need vet attention.",
+    "medicines": [],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Multivitamin Immune Support Mix",
+        "benefit": "General immune support and nutrient replacement during viral illness",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo2NTg3NjE3NzQ4Nzk5Njg3OjE3ODQ0NzUxNTE6c3BfYXRmOjMwMDM0NzI2NDAyMjgzMjo6MDo6&url=%2FGrowel-Immune-Booster-Immunity-Supplements%2Fdp%2FB01KT7FDQE%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.2ej78Mps0yTtE6HI10LVXiRWwAS7_r91bPBi0MigtHyPu6rBgRZODr28judKTTTfOQruHlShltfjVVKIv-mpYe4cS8B-qcQpj4pbR58tc0r7pxbd6-r_E-41Lkqrt1SCFcKetSdsRTB1YLHKaDZLbN8mrlU8sHQg4rv8atBzvreIdfQ8wIjxn0CJooGYz0WxnGw2Ifqj-eITbK5AvhBO1r4OVRqeheVW7ze7HvgQTKgcmZKYsZAbcQgewOOGwJ0KeOnc_6UG9i5enHCNQMhvIWCwYxwkC5Q_-A4i9UxmUEo.0rSwEeLbqaGEkNKEWr5elB2MRkQqGhTfAH62jS5jUJE%26dib_tag%3Dse%26keywords%3Dcattle%2Bimmune%2Bsupport%2Bmultivitamin%26qid%3D1784475151%26sr%3D8-2-spons%26aref%3DZw0BLRRu0D%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Zw0BLRRu0D&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/713Vr0KOorL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Most warts regress on their own within 1-6 months without treatment",
+      "Do not attempt to cut off warts at home, risk of bleeding and infection",
+      "Isolate heavily affected young cattle from herd to reduce spread"
+    ]
+  },
+  {
+    "id": "C020",
+    "common_name": "Liver Fluke",
+    "aliases": [
+      "liver fluke cattle",
+      "fasciola cow",
+      "cow weight loss fluke"
+    ],
+    "urgency": "Medium",
+    "cause": "Fasciola parasites ingested from contaminated wet pasture or water, migrate to liver causing damage, weight loss, and reduced milk production.",
+    "warning": "Chronic infection causes bottle jaw (fluid swelling under jaw) and severe weight loss if untreated for a long time.",
+    "medicines": [
+      {
+        "name": "Triclabendazole",
+        "type": "Flukicide/Dewormer",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet weight-based dosing",
+        "note": "Follow milk withdrawal period strictly"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Liver Tonic Supplement (Herbal)",
+        "benefit": "Supports liver detoxification and regeneration after fluke or toxin damage",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo4MzYyOTY2NjY5MzY4MzY6MTc4NDQ3NTI1NDpzcF9hdGY6MzAwMTUxMDAxNDg0NDMyOjowOjo&url=%2FGrowel-Growlive-Forte-Digestive-Poultry%2Fdp%2FB0779FDS3V%2Fref%3Dsr_1_2_sspa%3Fcrid%3D3MQBYIC2I1R2E%26dib%3DeyJ2IjoiMSJ9.DAGDsQJp9vCN-pXYFbCLumSzsSci-kSkdXiwIMphOuE0uB7bb1eXEmiuhYjxvkoNTEGTyRnvj18JO3nKI2SCPEwsrhWqsBb4vjI4dvblEnKbqJWLetOJPkJNFpyZHVASxIwRL8vRJlH7Qe0XFa82m2Srw6sZWT5PY6Rh1PWaFGzNCefLpxkL_t5IwrjKiDMUA6wK9112OCaVFfOTZarbZOCHeXrNxN7bztGZZzm4-o6jrLfvXyhTRN5SeBFAix07aZ1O8ovImuf3TahyweY49sCplz8LFWwthvRCMR1BBd4.MlHVNNssJe9wKOz3a1_m0cxxjAEE_WxQ73WUi_tUdVk%26dib_tag%3Dse%26keywords%3Dliver%2Btonic%2Bsupplement%2Bfor%2Bcows%26qid%3D1784475254%26sprefix%3Dliver%2Btonic%2Bsupplement%2Bfor%2Bcows%252Caps%252C341%26sr%3D8-2-spons%26aref%3DNwTDoekpka%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=NwTDoekpka&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/71RHHZV4o-S._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Avoid grazing on waterlogged or marshy pasture where fluke snails live",
+      "Deworm on a regular schedule as advised by vet in fluke-endemic areas",
+      "Bottle jaw swelling under chin is a sign to get vet fecal testing done"
+    ]
+  },
+  {
+    "id": "C021",
+    "common_name": "Worm Infestation (Gastrointestinal Worms)",
+    "aliases": [
+      "cattle worms",
+      "gut worms cow",
+      "cow diarrhea worms",
+      "weight loss worms cattle"
+    ],
+    "urgency": "Medium",
+    "cause": "Roundworms and other intestinal parasites picked up from contaminated pasture, cause diarrhea, weight loss, poor coat, and reduced growth, mostly in young cattle.",
+    "warning": "Heavy infestation in young calves can cause severe anemia and stunted growth if not treated regularly.",
+    "medicines": [
+      {
+        "name": "Albendazole or Ivermectin",
+        "type": "Broad-spectrum Dewormer",
+        "dispensing": "OTC/Prescription",
+        "dose": "As per vet weight-based dosing",
+        "note": "Follow milk/meat withdrawal period, rotate dewormer classes to prevent resistance"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Multivitamin + Mineral Mix (Cattle)",
+        "benefit": "General immune and healing support, replaces nutrients lost during illness",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MToyNTgyNjUyOTI3NDk0MDgyOjE3ODQ0NzUzMTE6c3BfYXRmOjMwMTExMjU5MDg4MjIzMjo6MDo6&url=%2FGrowel-Grow-Calcium-Tonic-500ml%2Fdp%2FB01KT7ESJC%2Fref%3Dsr_1_3_sspa%3Fdib%3DeyJ2IjoiMSJ9.zTHFEamkH1BwbfDIDvnwM-dPbwYBL_HIZQgnWIVErCykYhGlZcgnLOXpGpknF5-DZUDtjPLMcr64no-sDAy6yxEYwqgKwKK_REBWS200TLPy7sdA1tljwDVogc6AlANxJuKBrO_3vm3nFWevxUxfLO75XE0D_pqmeDzAN14ZM7eNO-B7izgcujxVn-VmFArUSZ1RAq07earMm_Q3zntvRHH2ubdmokBDFZ-BhtzWBGXX86bYqIrm3ItVIMrUeY6Y-qt_amjBzOKtz0pkm3swSaylPqJ7uCNbtrNKkB4RI3c.3MqA1PrL-qsVQbFUA2eu4BtbJuU6Uljoz6LH-6d9i-o%26dib_tag%3Dse%26keywords%3Dcattle%2Bmultivitamin%2Bmineral%2Bmixture%26qid%3D1784475311%26sr%3D8-3-spons%26aref%3DTAMC3qTz4M%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=TAMC3qTz4M&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/618a0GvSEvL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Follow a regular deworming schedule, especially for young cattle on pasture",
+      "Rotate grazing areas to reduce parasite buildup",
+      "Do not overdose, weigh animal accurately for correct dosing"
+    ]
+  },
+  {
+    "id": "C022",
+    "common_name": "Photosensitization",
+    "aliases": [
+      "sunburn cattle",
+      "photosensitivity cow",
+      "skin peeling sun cattle"
+    ],
+    "urgency": "Medium",
+    "cause": "Certain plants or liver damage cause a photo-reactive compound to build up in skin, leading to severe sunburn-like reaction on white or light-skinned areas.",
+    "warning": "Often linked to underlying liver disease or toxic plant ingestion, needs vet evaluation to find and remove the cause.",
+    "medicines": [
+      {
+        "name": "Anti-inflammatory (vet-prescribed)",
+        "type": "NSAID",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet",
+        "note": "Treats pain and inflammation while underlying cause is identified"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Zinc oxide skin cream",
+        "type": "Protective skin barrier cream",
+        "active": "Zinc oxide",
+        "use": "Apply to affected light-skinned areas to protect from further sun damage",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Liver Tonic Supplement (Herbal)",
+        "benefit": "Supports liver detoxification and regeneration after fluke or toxin damage",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3NTE3NDIwODUzNjYyMzI6MTc4NDQ3NTM3MzpzcF9hdGY6MzAwMTUxMDAxNDg0NDMyOjowOjo&url=%2FGrowel-Growlive-Forte-Digestive-Poultry%2Fdp%2FB0779FDS3V%2Fref%3Dsr_1_2_sspa%3Fcrid%3DNT3JG04AGD6V%26dib%3DeyJ2IjoiMSJ9.DAGDsQJp9vCN-pXYFbCLumSzsSci-kSkdXiwIMphOuE0uB7bb1eXEmiuhYjxvkoNTEGTyRnvj18JO3nKI2SCPHgqDLuji9oeKesQBzRhaiTyg9Gw_ux2fvkQ8IOJdYoixIwRL8vRJlH7Qe0XFa82m2Srw6sZWT5PY6Rh1PWaFGzNCefLpxkL_t5IwrjKiDMUA6wK9112OCaVFfOTZarbZOCHeXrNxN7bztGZZzm4-o6jrLfvXyhTRN5SeBFAix07aZ1O8ovImuf3TahyweY49sCplz8LFWwthvRCMR1BBd4.nQ4gh2KNT4ib_yLllS6POfxi4TbnGeMfbs4lMYXnyAg%26dib_tag%3Dse%26keywords%3Dliver%2Btonic%2Bsupplement%2Bfor%2Bcows%26qid%3D1784475373%26sprefix%3Dliver%2Btonic%2Bsupplement%2Bfor%2Bcows%252Caps%252C325%26sr%3D8-2-spons%26aref%3DNwTDoekpka%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=NwTDoekpka&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/71RHHZV4o-S._AC_UL320_.jpg"
+      },
+      {
+        "name": "Vitamin E + Selenium Supplement",
+        "benefit": "Supports udder tissue health and immune response during infection",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=vitamin+e+selenium+cattle+supplement",
+        "image_url": "https://m.media-amazon.com/images/I/71V7X7y7PgL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Move affected animal to shade immediately",
+      "Identify and remove toxic plants from pasture",
+      "Vet check needed to rule out liver disease as underlying cause"
+    ]
+  },
+  {
+    "id": "C023",
+    "common_name": "Hardware Disease (Traumatic Reticuloperitonitis)",
+    "aliases": [
+      "hardware disease cow",
+      "wire disease cattle",
+      "nail in stomach cow"
+    ],
+    "urgency": "High",
+    "cause": "Cow accidentally swallows a sharp metal object (nail, wire) with feed, which pierces the stomach wall (reticulum) and can damage the heart or other organs.",
+    "warning": "Sharp pain when moving, hunched back, and reluctance to move can indicate a metal object has pierced internal organs, needs urgent vet care.",
+    "medicines": [
+      {
+        "name": "Antibiotic + Rumen Magnet (vet-administered)",
+        "type": "Antibiotic + preventive magnet",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet",
+        "note": "Magnet given orally to trap metal objects and prevent further migration"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Rumen Probiotic/Yeast Culture",
+        "benefit": "Restores healthy rumen microbes and digestion after illness or treatment",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=rumen+probiotic+yeast+culture+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/71xsn7z2hoL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Keep feeding areas free of wire, nails, and metal debris",
+      "Cow standing hunched with grunting and reluctance to move needs same-day vet exam",
+      "Preventive rumen magnets can be given to at-risk herds"
+    ]
+  },
+  {
+    "id": "C024",
+    "common_name": "Downer Cow Syndrome",
+    "aliases": [
+      "down cow",
+      "cow cannot stand",
+      "downer cattle"
+    ],
+    "urgency": "Critical",
+    "cause": "Cow is unable to rise despite being alert, often following milk fever, calving injury, nerve damage, or severe metabolic disease.",
+    "warning": "The longer a cow stays down, the more muscle and nerve damage occurs, urgent vet diagnosis of the underlying cause is essential.",
+    "medicines": [
+      {
+        "name": "Treatment depends on underlying cause (vet diagnosis required)",
+        "type": "Diagnosis first",
+        "dispensing": "Vet",
+        "dose": "N/A",
+        "note": "Calcium therapy, anti-inflammatory, or nerve support depending on cause found by vet"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Calcium-Magnesium-Phosphorus Mix",
+        "benefit": "Supports nerve, muscle, and bone function during recovery from a down episode",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo5OTIyMzM3Mzk4OTg5ODE6MTc4NDQ3NTUzMjpzcF9hdGY6MzAwNTYxNzY3MjMxMTMyOjowOjo&url=%2FKelvigold-Chelated-Supplement-Gluconeogenic-Precursor%2Fdp%2FB0CHWD3Q4D%2Fref%3Dsr_1_4_sspa%3Fcrid%3D3FBB7WU3KDL2Z%26dib%3DeyJ2IjoiMSJ9.42wgEkMa8Spnpy8IsktyFRz6GCk2Ih9uzW7dJnZ2JL_6JGUHF1aGtqq8dQQWSwZluN3Uy8oK-H8LmTcJjlE_Rb7p6mMEH6_rckSUR2VSDGpTVQM4Gj3SNGaeke7y5d_SdjH-09LqxKg-K-D5YsSPoPeKMkSw9O6_DXBKjNQDNXVoTSRRM72Y5Nzi9i_gQkq_ZegbL30fQaKwUP_Odx9Wg7wMja6FNoNqeMPKi1izCceWCb0PNdJoCAnDDVDbJLDcc1mqHq7le89oq_flgQOWqaUVCorc9Jn7yfsFbVFzx80.o4axZyZ5ifQ0ef01D4VTtr-tSQWFU5UuAI-yo6kPUjM%26dib_tag%3Dse%26keywords%3Dcalcium%2Bmagnesium%2Bphosphorus%2Bmineral%2Bmix%2Bfor%2Bcows%26qid%3D1784475532%26sprefix%3Dcalcium%2Bmagnesium%2Bphosphorus%2Bmineral%2Bmix%2Bfor%2Bcow%252Caps%252C334%26sr%3D8-4-spons%26aref%3DQrnH6aO71a%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=QrnH6aO71a&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/31Nv+mSWn9L._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Provide soft, dry bedding and turn the cow side to side every few hours to prevent pressure sores",
+      "Do not drag a down cow by legs or tail, causes further injury",
+      "Get vet diagnosis promptly as cause determines the correct treatment"
+    ]
+  },
+  {
+    "id": "C025",
+    "common_name": "Navel Ill (Omphalitis)",
+    "aliases": [
+      "navel infection calf",
+      "joint ill calf",
+      "infected navel cord"
+    ],
+    "urgency": "High",
+    "cause": "Bacterial infection entering through the umbilical cord shortly after birth, often due to unhygienic calving conditions, can spread to joints and internal organs.",
+    "warning": "Can progress to joint infection (joint ill) causing severe lameness and swollen joints in the calf if untreated early.",
+    "medicines": [
+      {
+        "name": "Antibiotic Injection",
+        "type": "Broad-spectrum antibiotic",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet weight-based dosing",
+        "note": "Early treatment prevents spread to joints and organs"
+      }
+    ],
+    "topical_treatments": [
+      {
+        "name": "Iodine Navel Dip",
+        "type": "Antiseptic dip",
+        "active": "7% Tincture of iodine",
+        "use": "Dip calf's navel cord within hours of birth to prevent infection",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Multivitamin Immune Support Mix",
+        "benefit": "General immune support and nutrient replacement during viral illness",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=cattle+immune+support+multivitamin",
+        "image_url": "https://m.media-amazon.com/images/I/713Vr0KOorL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Dip every newborn calf's navel in iodine within hours of birth as routine prevention",
+      "Keep calving pens clean and dry",
+      "Swollen painful navel or joints in a calf needs prompt vet attention"
+    ]
+  },
+  {
+    "id": "C026",
+    "common_name": "Coccidiosis (Calf Coccidiosis)",
+    "aliases": [
+      "coccidiosis calf",
+      "bloody scours calf",
+      "calf coccidia"
+    ],
+    "urgency": "Medium",
+    "cause": "Eimeria protozoa parasite damages the intestinal lining of young calves, especially in crowded or unhygienic housing, causing bloody diarrhea and straining.",
+    "warning": "Severe cases cause significant blood loss and dehydration in calves, needs prompt treatment and supportive fluids.",
+    "medicines": [
+      {
+        "name": "Sulfadimethoxine or Amprolium",
+        "type": "Antiprotozoal",
+        "dispensing": "Prescription/Vet",
+        "dose": "As per vet weight-based dosing",
+        "note": "Complete full course to fully clear infection"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Oral Rehydration Salts for Calves",
+        "benefit": "Replaces fluids and electrolytes lost through diarrhea, critical in young calves",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/SHELTER-Sheltrolyte-Oral-Electrolyte-Anti-Stress/dp/B0GCF69S1Z/ref=sr_1_3?crid=3QDS9FDMQNCAR&dib=eyJ2IjoiMSJ9.dgUx0jmKLfARg8AuHgmIzOXFo0ecMp6lEYpWtIEVuIhvd2NDni-MFQfczHN4C89eDSaeW4smEbgOpHQ0E_N4r6KLvoNh_8rTZOPORWKht26FXCe-hYTGVYQDvMkDqSmZN9pfXXM8NXPCqVmcXQi0KFNNCT0CrmgpHNSaxfTsv00qIbMbhz3CHwpYgpmhHbn-ArhwjPM_AnybMBjKjGPoNhWxK4LnxdjwgkYMlDLqsaXrjhtPZ5EPVkESM6bzYR5_w9Qt2Os307LQeEw7D63uAnhPfCMf1lZcGYdsLsHF-OU.-rrMsUcCFzNp-fYVVGlJ6X2lbWrhGLbAhiV-4AWMOG4&dib_tag=se&keywords=oral+rehydration+salts+for+cows&qid=1784475688&sprefix=oral+rehydration+salts+for+cows%2Caps%2C564&sr=8-3",
+        "image_url": "https://m.media-amazon.com/images/I/7139vpUXfrL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Keep calf housing clean and dry, overcrowding increases risk",
+      "Isolate affected calves to reduce spread to healthy ones",
+      "Bloody diarrhea in calves needs prompt vet attention"
+    ]
+  },
+  {
+    "id": "C027",
+    "common_name": "Tetanus",
+    "aliases": [
+      "tetanus cow",
+      "lockjaw cattle",
+      "stiff cow after wound"
+    ],
+    "urgency": "Critical",
+    "cause": "Clostridium tetani bacteria enters through deep wounds (castration, dehorning, nail injury) and produces a toxin causing severe muscle stiffness and spasms.",
+    "warning": "Progresses to full body rigidity, inability to eat, and death from respiratory failure if untreated, needs immediate vet care at first sign of stiffness.",
+    "medicines": [
+      {
+        "name": "Tetanus Antitoxin + Penicillin",
+        "type": "Antitoxin + Antibiotic",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet, given as early as possible",
+        "note": "Antitoxin neutralizes circulating toxin, antibiotic kills the bacteria"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "General Nutrition/Mineral Mix",
+        "benefit": "Maintains basic nutrition and mineral balance, supportive only, does not treat the disease",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozOTc3MzMxNzMxODQ0MDU2OjE3ODQ0NzU3NzY6c3BfYXRmOjMwMDg0ODM2NzQwODUzMjo6MDo6&url=%2FGrowel-Amino-Power-Poultry-Supplement%2Fdp%2FB01M217R6W%2Fref%3Dsr_1_3_sspa%3Fdib%3DeyJ2IjoiMSJ9.OEd3zx7bf1mUEF5q_SvQO_4RqW8cxq68E8MrKzSIA4P-PAoTIrmmDjo67K1ob2cbidO8PTiaHYu3i__wK7lHvK0BrxrvD0WS_HhgkPdyohKegtc5dq_DOILMW6-ZeikqK3_omFkhENsErBchE9Ml3E3jyGiuGxIR-oGvdAnLKKHAObkgGOlmaeRENXLJok7OZRxf5wbhYJzHYfSB1E-fxZgQhJzJiUqR52_yFkR4EX49uPu38y3ebqGlhkFyYUuOtRh4b9qj8hbZXfSNE_hA4yWyzLmxSv3A9auSFfsojM8.yiEtGtY6p6YabeWJh927LDTAeBlWBqWL7OTtgxfxDcA%26dib_tag%3Dse%26keywords%3Dmineral%2Bmixture%2Bsupplement%2Bfor%2Bcows%26qid%3D1784475776%26sr%3D8-3-spons%26aref%3D8xQqQshKmA%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=8xQqQshKmA&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/71VnprJUOyS._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Vaccinate against tetanus before procedures like castration or dehorning in endemic areas",
+      "Keep wounds clean and treat promptly to prevent bacterial entry",
+      "Stiff gait, flared nostrils, or protruding third eyelid are early warning signs needing urgent vet exam"
+    ]
+  },
+  {
+    "id": "C028",
+    "common_name": "Grass Tetany (Hypomagnesemia)",
+    "aliases": [
+      "grass tetany cow",
+      "low magnesium cattle",
+      "staggers cow"
+    ],
+    "urgency": "Critical",
+    "cause": "Low blood magnesium level, common in cattle grazing lush young spring pasture with low magnesium content, especially in lactating cows.",
+    "warning": "Causes muscle twitching, staggering, convulsions, and can be rapidly fatal, this is a medical emergency needing immediate calcium/magnesium therapy.",
+    "medicines": [
+      {
+        "name": "Calcium-Magnesium Borogluconate IV",
+        "type": "Injectable mineral therapy",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet, given slowly IV under close monitoring",
+        "note": "Handle animal calmly and quietly, excitement can trigger fatal convulsions"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Magnesium Oxide Mineral Supplement",
+        "benefit": "Helps prevent and correct low blood magnesium during high-risk grazing periods",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/VetMantra-Mineral-Production-Reproduction-Efficiency/dp/B09MTZHP45/ref=sr_1_2?crid=2PVEFM63BMNBZ&dib=eyJ2IjoiMSJ9.e4WHLtoIaREUsqfgqSCR7j09x0DRT9w5Y2BkjdTkTIpt45XWxz08ZzqOyzdvlUQXt1tA_emISgI0vJa6csQQzmdNzs1TJ9BaML0vYqHqC54BPuqqfDXrH2xS9wCXcO0xFsJsmXhz6v_BXknB-1PBMS2MVjr0RsJxgFQl6vw3bjNEZ3qgYoXrkN6EKPi-_kTzcTmTthDJf1C2MCOR8n37RUfsOnkgExJpRamDI6eRr4pAp8A_7z3T8uOm75LXYZQNoljc6y4U51ypFi75NFSZsV6aCmNR1v-lOhjKIbTePA0.HbAKcPNV8EayxRXRhEnqEkIQE3LJqLfwHFZcxtr5GMY&dib_tag=se&keywords=magnesium+oxide+supplement+for+cows&qid=1784475873&sprefix=magnesium+oxide+supplement+fow%2Caps%2C1123&sr=8-2",
+        "image_url": "https://m.media-amazon.com/images/I/81PU37STAcL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Provide magnesium supplementation before turning cattle onto lush spring pasture",
+      "Handle a suspected grass tetany animal calmly and quietly, stress can trigger fatal seizures",
+      "Convulsing or staggering cattle need emergency vet care immediately"
+    ]
+  },
+  {
+    "id": "C029",
+    "common_name": "Actinomycosis (Lumpy Jaw)",
+    "aliases": [
+      "lumpy jaw cow",
+      "bone jaw infection cattle",
+      "actinomycosis cattle"
+    ],
+    "urgency": "Medium",
+    "cause": "Actinomyces bacteria enters through injury to the mouth (from sharp feed or foreign objects) and infects the jaw bone, causing a hard, slow-growing swelling.",
+    "warning": "Untreated infection can prevent normal eating and cause severe weight loss, early treatment gives the best chance of recovery.",
+    "medicines": [
+      {
+        "name": "Sodium Iodide IV or Long-course Penicillin",
+        "type": "Antibiotic/Iodide therapy",
+        "dispensing": "Vet-administered",
+        "dose": "As per vet, often needs weeks of treatment",
+        "note": "Early cases respond better, advanced bony swelling is harder to resolve"
+      }
+    ],
+    "topical_treatments": [],
+    "supplements": [
+      {
+        "name": "Multivitamin Immune Support Mix",
+        "benefit": "General immune support and nutrient replacement during viral illness",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=cattle+immune+support+multivitamin",
+        "image_url": "https://m.media-amazon.com/images/I/713Vr0KOorL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Any hard, slow-growing jaw swelling needs vet examination to confirm diagnosis",
+      "Provide soft feed if chewing is difficult during treatment",
+      "Remove sharp or spiky feed material that can injure the mouth"
+    ]
+  },
+  {
+    "id": "C030",
+    "common_name": "Heat Stress",
+    "aliases": [
+      "heat stress cow",
+      "cow overheating",
+      "summer heat cattle",
+      "cow panting hot weather"
+    ],
+    "urgency": "High",
+    "cause": "High environmental temperature and humidity overwhelm the cow's ability to cool itself, especially in high-producing dairy cows, causing reduced feed intake and heavy panting.",
+    "warning": "Severe heat stress can cause collapse and death, especially in transported or poorly ventilated cattle, needs urgent cooling.",
+    "medicines": [],
+    "topical_treatments": [
+      {
+        "name": "Cool water spray/sprinkler system",
+        "type": "Evaporative cooling",
+        "active": "N/A",
+        "use": "Spray cool water on the body combined with fanning to lower body temperature",
+        "buy_link": "",
+        "image_url": ""
+      }
+    ],
+    "supplements": [
+      {
+        "name": "Electrolyte Mineral Mix for Cattle",
+        "benefit": "Replaces minerals and fluids lost through heavy panting and reduced intake in hot weather",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/sspa/click?ie=UTF8&spc=MTozMTMwNDk3Nzg5MjIwNDQ4OjE3ODQ0NzU5NjE6c3BfYXRmOjMwMDU2MTc2NzIzMTMzMjo6MDo6&url=%2FAalmino-Chelated-Mineral-Mixture-Supplements%2Fdp%2FB0B8ZSXQCD%2Fref%3Dsr_1_2_sspa%3Fcrid%3DCC1KM1SLX881%26dib%3DeyJ2IjoiMSJ9.CPCqisPFqy5SluI7H-AiFKOoujP_e86iFSj3Mt2vHBIjieUWsPbHNarRE2um2DkItBvRmE64T7ykRN709fJfSO8hK8iUE7fTBwzTu_Wm7AvopjS1LeVU73W7TY_KS9LqXJJrW2SVB4xktNYVZFf-RLS5aGbuVI5i2uxkmO3YyKpjJfAs8DloV4Y9mVI6QLJ623MIgW3lhPHx8MKtd09jv-gZi4Nf27YbgXmF7VzTbrOlICaRS3KhxG0gsh8U7ePxbOstEb67KfZUSTdZp7-M9r7joLBLudk2q0CpDebkwgM.buzqHeKyobMafVfRCj4YLIeEsUi5izGHsKcDrzKDmi0%26dib_tag%3Dse%26keywords%3Delectrolyte%2Bmineral%2Bmix%2Bfor%2Bcows%26qid%3D1784475961%26sprefix%3Delectrolyte%2Bmineral%2Bmix%2Bfor%2Bcows%252Caps%252C387%26sr%3D8-2-spons%26aref%3DRVWHl0LpFj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=RVWHl0LpFj&sp_cr=ZAZ",
+        "image_url": "https://m.media-amazon.com/images/I/61+bgJc5d9L._AC_UL320_.jpg"
+      },
+      {
+        "name": "Vitamin C Supplement",
+        "benefit": "Supports immune function and stress recovery during heat stress or illness",
+        "dose": "As per vet/product label",
+        "buy_link": "https://www.amazon.in/s?k=vitamin+c+supplement+cattle",
+        "image_url": "https://m.media-amazon.com/images/I/71YxnhoUjLL._AC_UL320_.jpg"
+      }
+    ],
+    "safety_warnings": [
+      "Provide constant access to fresh cool water and shade in hot weather",
+      "Avoid transporting or working cattle during the hottest part of the day",
+      "Heavy open-mouth panting with drooling is a sign of severe heat stress needing urgent cooling"
+    ]
+  }
+]

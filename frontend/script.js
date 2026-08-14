@@ -1,6 +1,6 @@
-//const API = "https://aipetscommunity-2.onrender.com";
+const API = "https://aipetscommunity-2.onrender.com";
 
-const API = "http://127.0.0.1:8000";
+//const API = "http://127.0.0.1:8000";
 
 // ─── File Preview ───
 document.getElementById('fileInput').addEventListener('change', function(e) {

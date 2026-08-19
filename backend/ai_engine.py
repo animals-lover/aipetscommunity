@@ -1,4 +1,378 @@
 
+# # import os
+# # import json
+# # import base64
+# # import cv2
+# # import tempfile
+# # import time
+# # import numpy as np
+# # from groq import Groq
+
+# # # ──────────────────────────────────────────────
+# # #  LOAD DISEASE DATABASE (dog_diseases.json)
+# # # ──────────────────────────────────────────────
+# # import os as _os
+# # _DB_PATH = _os.path.join(_os.path.dirname(__file__), "dog_diseases.json")
+# # try:
+# #     with open(_DB_PATH, "r", encoding="utf-8") as _f:
+# #         DISEASE_DB = json.load(_f)
+# #     print(f"[INFO] Disease DB loaded: {len(DISEASE_DB)} diseases")
+# # except Exception as _e:
+# #     DISEASE_DB = []
+# #     print(f"[WARN] dog_diseases.json not found: {_e}")
+# # # ──────────────────────────────────────────────
+# # #  ROBUST JSON PARSER
+# # #  Handles: empty response, markdown fences,
+# # #  extra text before/after JSON, partial output
+# # # ──────────────────────────────────────────────
+# # def parse_response(text: str) -> dict:
+# #     if not text or not text.strip():
+# #         raise ValueError("AI returned an empty response")
+
+# #     clean = text.strip()
+# #     # Remove markdown code fences
+# #     clean = clean.replace("```json", "").replace("```", "").strip()
+# #     # Extract the JSON object even if model adds intro/outro text
+# #     start = clean.find("{")
+# #     end   = clean.rfind("}")
+# #     if start == -1 or end == -1 or end <= start:
+# #         raise ValueError(f"No valid JSON in response: {clean[:300]}")
+# #     clean = clean[start : end + 1]
+# #     return json.loads(clean)
+
+
+# # # ──────────────────────────────────────────────
+# # #  GROQ API WITH RETRY
+# # #  Retries 3x on: empty response, bad JSON,
+# # #  transient API errors
+# # # ──────────────────────────────────────────────
+# # def call_groq(client, messages: list, max_tokens: int = 1024, retries: int = 3) -> dict:
+# #     last_error = None
+
+# #     for attempt in range(1, retries + 1):
+# #         try:
+# #             response = client.chat.completions.create(
+# #                 model="llama-3.3-70b-versatile",
+# #                 messages=messages,
+# #                 max_tokens=max_tokens,
+# #                 temperature=0.3,
+# #             )
+# #             raw = (response.choices[0].message.content or "").strip()
+# #             if not raw:
+# #                 raise ValueError(f"Empty response on attempt {attempt}")
+# #             return parse_response(raw)   # success
+
+# #         except (ValueError, json.JSONDecodeError) as e:
+# #             last_error = e
+# #             print(f"[WARN] Attempt {attempt}/{retries} — {type(e).__name__}: {e}")
+# #             if attempt < retries:
+# #                 time.sleep(1.5 * attempt)
+
+# #         except Exception as e:
+# #             last_error = e
+# #             print(f"[ERROR] API error attempt {attempt}: {e}")
+# #             if attempt < retries:
+# #                 time.sleep(2 * attempt)
+
+# #     print(f"[ERROR] All {retries} retries exhausted. Last: {last_error}")
+# #     return _fallback_result()
+
+
+# # def _fallback_result() -> dict:
+# #     return {
+# #         "score": 50,
+# #         "animal": "dog",
+# #         "observations": [{"label": "Analysis could not be completed", "type": "warn"}],
+# #         "analysis": "The AI was unable to process the input right now. This is usually temporary. Please try again.",
+# #         "conditions": [],
+# #         "recommendation": "Please try again. If the issue persists, add more detail in the text box.",
+# #         "urgency": "Monitor at home",
+# #         "disclaimer": "This is AI screening only. Always consult a licensed veterinarian.",
+# #         "_fallback": True
+# #     }
+
+
+# # # ──────────────────────────────────────────────
+# # #  DETERMINISTIC SCORE CORRECTOR
+# # # ──────────────────────────────────────────────
+# # def fix_score(result: dict) -> dict:
+# #     conditions = result.get("conditions") or []
+# #     urgency    = (result.get("urgency") or "").lower()
+
+# #     try:
+# #         ai_score = int(result.get("score", 70))
+# #     except (TypeError, ValueError):
+# #         ai_score = 70
+# #     ai_score = max(0, min(100, ai_score))
+
+# #     priority = {"high": 3, "medium": 2, "low": 1}
+# #     worst = 0
+# #     for c in conditions:
+# #         lk = (c.get("likelihood") or "low").lower()
+# #         worst = max(worst, priority.get(lk, 1))
+
+# #     # Cross-check: high condition + "Monitor at home" urgency → override
+# #     if worst == 3 and "urgent" not in urgency and "soon" not in urgency:
+# #         result["urgency"] = "Visit vet soon"
+# #         urgency = "visit vet soon"
+
+# #     if "urgent" in urgency:
+# #         corrected = max(20, min(ai_score, 39))
+# #     elif "soon" in urgency:
+# #         corrected = max(40, min(ai_score, 59))
+# #     elif worst == 3:
+# #         corrected = max(30, min(ai_score, 54))
+# #     elif worst == 2:
+# #         corrected = max(50, min(ai_score, 69))
+# #     elif worst == 1:
+# #         corrected = max(65, min(ai_score, 89))
+# #     else:
+# #         corrected = max(min(ai_score, 100), 80)
+
+# #     result["score"] = corrected
+# #     return result
+
+# # # ──────────────────────────────────────────────
+# # #  JSON DATABASE LOOKUP
+# # #  Matches AI condition name against aliases
+# # #  and injects real treatment data into result
+# # # ──────────────────────────────────────────────
+# # def enrich_from_db(result: dict) -> dict:
+# #     if not DISEASE_DB or not result.get("conditions"):
+# #         return result
+
+# #     for condition in result["conditions"]:
+# #         ai_name = (condition.get("name") or "").lower().strip()
+# #         if not ai_name:
+# #             continue
+
+# #         matched = None
+# #         best_score = 0
+
+# #         for disease in DISEASE_DB:
+# #             # Check common_name
+# #             db_name = disease.get("common_name", "").lower()
+# #             # Check all aliases
+# #             aliases = [a.lower() for a in disease.get("aliases", [])]
+# #             all_terms = [db_name] + aliases
+
+# #             for term in all_terms:
+# #                 # Exact match → highest priority
+# #                 if term == ai_name:
+# #                     matched = disease
+# #                     best_score = 100
+# #                     break
+# #                 # Partial match — AI name contains DB term or vice versa
+# #                 elif term in ai_name or ai_name in term:
+# #                     score = len(term)   # longer match = more specific
+# #                     if score > best_score:
+# #                         best_score = score
+# #                         matched = disease
+
+# #             if best_score == 100:
+# #                 break   # exact match found, stop searching
+
+# #         if matched and best_score >= 3:
+# #             print(f"[DB] Matched '{ai_name}' → '{matched['common_name']}' (score:{best_score})")
+
+# #             # Inject real data — overwrite AI guesses with JSON facts
+# #             condition["what_is_it"]  = condition.get("what_is_it") or matched.get("cause", "")
+# #             condition["why_happens"] = matched.get("cause", condition.get("why_happens", ""))
+# #             condition["warning"]     = matched.get("warning", "")
+# #             condition["see_vet"]     = matched.get("urgency", "Low") in ("Medium", "High", "Critical")
+
+# #             # Inject medicines
+# #             condition["medicines"] = matched.get("medicines", [])
+
+# #             # Inject topical treatments
+# #             condition["topical_treatments"] = matched.get("topical_treatments", [])
+
+# #             # Inject supplements with images and links
+# #             condition["supplements_detail"] = matched.get("supplements", [])
+
+# #             # Inject safety warnings
+# #             condition["safety_warnings"] = matched.get("safety_warnings", [])
+
+# #             # Override treatment text with real medicine names
+# #             med_names = [m["name"] for m in matched.get("medicines", [])]
+# #             if med_names:
+# #                 condition["treatment"] = " | ".join(med_names)
+
+# #             # Override supplements text with real supplement names
+# #             sup_names = [s["name"] for s in matched.get("supplements", [])]
+# #             if sup_names:
+# #                 condition["supplements"] = " | ".join(sup_names)
+
+# #         else:
+# #             print(f"[DB] No match for '{ai_name}' — keeping AI response")
+
+# #     return result
+# # # ──────────────────────────────────────────────
+# # #  SHARED POST-PROCESSING
+# # # ──────────────────────────────────────────────
+# # def post_process(result: dict) -> dict:
+# #     if not isinstance(result.get("conditions"), list):
+# #         result["conditions"] = []
+# #     priority = {"high": 3, "medium": 2, "low": 1}
+# #     result["conditions"] = sorted(
+# #         result["conditions"],
+# #         key=lambda x: priority.get((x.get("likelihood") or "low").lower(), 1),
+# #         reverse=True
+# #     )[:1]
+# #     result = enrich_from_db(result)   # ← ADD THIS LINE
+# #     return fix_score(result)
+
+
+# # # ──────────────────────────────────────────────
+# # #  PROMPTS
+# # # ──────────────────────────────────────────────
+# # IMAGE_PROMPT = """You are an expert veterinary AI assistant. Analyze this pet photo carefully.
+
+# # SCORING RULES (mandatory):
+# # - Any condition with likelihood "high"   → score 30-54
+# # - Any condition with likelihood "medium" → score 50-69
+# # - All conditions "low" likelihood        → score 65-89
+# # - No conditions (healthy pet)           → score 80-100
+# # - Urgency "Urgent vet visit"            → score below 40
+# # - Urgency "Visit vet soon"              → score below 60
+
+# # CONDITIONS RULES:
+# # - ONLY report conditions with VISIBLE evidence in the photo
+# # - Healthy pet → "conditions": []
+# # - Do NOT invent conditions based on breed
+
+# # You MUST respond ONLY with a valid JSON object. No intro text. No explanation. Just JSON:
+# # {
+# #   "score": <integer 0-100>,
+# #   "animal": "<dog/cat/rabbit/other>",
+# #   "observations": [{"label": "<string>", "type": "<ok|warn|danger>"}],
+# #   "analysis": "<2-3 sentences about what you visually see>",
+# #   "conditions": [
+# #     {
+# #       "name": "<condition name>",
+# #       "likelihood": "<low|medium|high>",
+# #       "what_is_it": "<1 sentence simple explanation>",
+# #       "why_happens": "<1 sentence on cause>",
+# #       "treatment": "<specific safe treatment options>",
+# #       "supplements": "<safe supplements or 'None needed'>",
+# #       "see_vet": <true or false>
+# #     }
+# #   ],
+# #   "recommendation": "<clear next steps for owner>",
+# #   "urgency": "<Monitor at home|Visit vet soon|Urgent vet visit>",
+# #   "disclaimer": "This is AI screening only. Always consult a licensed veterinarian for proper diagnosis and treatment."
+# # }"""
+
+# # TEXT_PROMPT_TEMPLATE = """You are an expert veterinary AI assistant.
+
+# # Pet owner's description:
+# # \"\"\"{description}\"\"\"
+
+# # SCORING RULES (mandatory):
+# # - Any condition with likelihood "high"   → score 20-49
+# # - Any condition with likelihood "medium" → score 50-69
+# # - All conditions "low" likelihood        → score 70-85
+# # - No conditions (healthy)               → score 80-100
+# # - Urgency "Urgent vet visit"            → score 20-39
+# # - Urgency "Visit vet soon"              → score 40-59
+# # - Monitor at home  → score 60-100
+
+
+# # CRITICAL RULES:
+# # - Only suggest conditions supported by described symptoms
+# # - Mild but clear symptoms → allow 1 low/medium condition
+# # - Vague symptoms → conditions: []
+# # - Do NOT hallucinate rare diseases
+# # - For respiratory symptoms, use general condition unless clearly specific
+# # - Avoid over-specific diagnosis without strong evidence
+# # - If conditions is empty, set "recommendation" to: "Your description is unclear. Please describe specific symptoms like: location of pain, duration, changes in eating/drinking/urination, any visible skin changes, or behavioral changes."
+# # - Do NOT force a condition name when symptoms are insufficient
+# # - If only 1-2 vague symptoms described (e.g. "dog seems tired") → conditions: [] and ask for more detail in recommendation
+
+# # You MUST respond ONLY with a valid JSON object. No intro text. No explanation. Just JSON:
+# # {{
+# #   "score": <integer 0-100>,
+# #   "animal": "dog",
+# #   "observations": [{{"label": "<string>", "type": "<ok|warn|danger>"}}],
+# #   "analysis": "<2-3 sentence explanation>",
+# #   "conditions": [
+# #     {{
+# #       "name": "<condition name>",
+# #       "likelihood": "<low|medium|high>",
+# #       "what_is_it": "<1 sentence explanation>",
+# #       "why_happens": "<1 sentence cause>",
+# #       "treatment": "<specific treatment options>",
+# #       "supplements": "<supplements or 'None needed'>",
+# #       "see_vet": <true or false>
+# #     }}
+# #   ],
+# #   "recommendation": "<clear next steps>",
+# #   "urgency": "<Monitor at home|Visit vet soon|Urgent vet visit>",
+# #   "disclaimer": "This is AI screening only. Always consult a licensed veterinarian for proper diagnosis and treatment."
+# # }}"""
+
+
+# # # ──────────────────────────────────────────────
+# # #  IMAGE ANALYSIS
+# # # ──────────────────────────────────────────────
+# # def analyze_pet(image_bytes: bytes, mime_type: str) -> dict:
+# #     client  = Groq(api_key=os.getenv("GROQ_API_KEY"))
+# #     img_b64 = base64.b64encode(image_bytes).decode("utf-8")
+# #     messages = [{
+# #         "role": "user",
+# #         "content": [
+# #             {"type": "image_url", "image_url": {"url": f"data:{mime_type};base64,{img_b64}"}},
+# #             {"type": "text",      "text": IMAGE_PROMPT}
+# #         ]
+# #     }]
+# #     return post_process(call_groq(client, messages))
+
+
+# # # ──────────────────────────────────────────────
+# # #  VIDEO ANALYSIS
+# # # ──────────────────────────────────────────────
+# # def extract_frames(video_bytes: bytes, num_frames: int = 4) -> list:
+# #     with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as f:
+# #         f.write(video_bytes)
+# #         tmp_path = f.name
+# #     cap   = cv2.VideoCapture(tmp_path)
+# #     total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+# #     frames = []
+# #     for i in range(num_frames):
+# #         pos = int((i / num_frames) * total)
+# #         cap.set(cv2.CAP_PROP_POS_FRAMES, pos)
+# #         ret, frame = cap.read()
+# #         if ret:
+# #             _, buf = cv2.imencode(".jpg", frame)
+# #             frames.append(base64.b64encode(buf).decode("utf-8"))
+# #     cap.release()
+# #     return frames
+
+
+# # def analyze_pet_video(video_bytes: bytes) -> dict:
+# #     client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+# #     frames = extract_frames(video_bytes, num_frames=4)
+# #     if not frames:
+# #         return {"error": "Video se frames nahi nikle"}
+# #     content = [
+# #         {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{f}"}}
+# #         for f in frames
+# #     ]
+# #     content.append({"type": "text", "text": IMAGE_PROMPT})
+# #     return post_process(call_groq(client, [{"role": "user", "content": content}]))
+
+
+# # # ──────────────────────────────────────────────
+# # #  TEXT-ONLY ANALYSIS
+# # # ──────────────────────────────────────────────
+# # def analyze_pet_text(description: str) -> dict:
+# #     client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+# #     messages = [{
+# #         "role": "user",
+# #         "content": TEXT_PROMPT_TEMPLATE.format(description=description)
+# #     }]
+# #     return post_process(call_groq(client, messages))
+
 # import os
 # import json
 # import base64
@@ -12,14 +386,25 @@
 # #  LOAD DISEASE DATABASE (dog_diseases.json)
 # # ──────────────────────────────────────────────
 # import os as _os
-# _DB_PATH = _os.path.join(_os.path.dirname(__file__), "dog_diseases.json")
-# try:
-#     with open(_DB_PATH, "r", encoding="utf-8") as _f:
-#         DISEASE_DB = json.load(_f)
-#     print(f"[INFO] Disease DB loaded: {len(DISEASE_DB)} diseases")
-# except Exception as _e:
-#     DISEASE_DB = []
-#     print(f"[WARN] dog_diseases.json not found: {_e}")
+# # _DB_PATH = _os.path.join(_os.path.dirname(__file__), "dog_diseases.json")
+# # try:
+# #     with open(_DB_PATH, "r", encoding="utf-8") as _f:
+# #         DISEASE_DB = json.load(_f)
+# #     print(f"[INFO] Disease DB loaded: {len(DISEASE_DB)} diseases")
+# DISEASE_DB = []
+# for _fname in ["dog_diseases.json", "cat_diseases.json"]:
+#     _path = _os.path.join(_os.path.dirname(__file__), _fname)
+#     try:
+#         with open(_path, "r", encoding="utf-8") as _f:
+#             DISEASE_DB.extend(json.load(_f))
+#         print(f"[INFO] Loaded {_fname}")
+#     except:
+#         pass
+        
+# print(f"[INFO] Disease DB total: {len(DISEASE_DB)}")
+# #except Exception as _e:
+#     # DISEASE_DB = []
+#     # print(f"[WARN] dog_diseases.json not found: {_e}")
 # # ──────────────────────────────────────────────
 # #  ROBUST JSON PARSER
 # #  Handles: empty response, markdown fences,
@@ -52,7 +437,7 @@
 #     for attempt in range(1, retries + 1):
 #         try:
 #             response = client.chat.completions.create(
-#                 model="llama-3.3-70b-versatile",
+#                 model="meta-llama/llama-4-scout-17b-16e-instruct",
 #                 messages=messages,
 #                 max_tokens=max_tokens,
 #                 temperature=0.3,
@@ -81,7 +466,7 @@
 # def _fallback_result() -> dict:
 #     return {
 #         "score": 50,
-#         "animal": "dog",
+#         "animal": "unknown",
 #         "observations": [{"label": "Analysis could not be completed", "type": "warn"}],
 #         "analysis": "The AI was unable to process the input right now. This is usually temporary. Please try again.",
 #         "conditions": [],
@@ -140,6 +525,9 @@
 # def enrich_from_db(result: dict) -> dict:
 #     if not DISEASE_DB or not result.get("conditions"):
 #         return result
+    
+#     #detected animal (dog/cat/other)
+#     detected_animal = (result.get("animal") or "dog").lower().strip()
 
 #     for condition in result["conditions"]:
 #         ai_name = (condition.get("name") or "").lower().strip()
@@ -151,8 +539,11 @@
 
 #         for disease in DISEASE_DB:
 #             # Check common_name
-#             db_name = disease.get("common_name", "").lower()
+#             db_species = disease.get("species", "dog").lower()
+#             if db_species != detected_animal and db_species != "both":
+#                 continue
 #             # Check all aliases
+#             db_name = disease.get("common_name", "").lower()
 #             aliases = [a.lower() for a in disease.get("aliases", [])]
 #             all_terms = [db_name] + aliases
 
@@ -226,8 +617,8 @@
 # # ──────────────────────────────────────────────
 # #  PROMPTS
 # # ──────────────────────────────────────────────
-# IMAGE_PROMPT = """You are an expert veterinary AI assistant. Analyze this pet photo carefully.
-
+# #IMAGE_PROMPT = """You are an expert veterinary AI assistant. Analyze this pet photo carefully.
+# IMAGE_PROMPT = """You are an expert veterinary AI assistant specializing in dogs and cats. Analyze this pet photo carefully.
 # SCORING RULES (mandatory):
 # - Any condition with likelihood "high"   → score 30-54
 # - Any condition with likelihood "medium" → score 50-69
@@ -292,7 +683,7 @@
 # You MUST respond ONLY with a valid JSON object. No intro text. No explanation. Just JSON:
 # {{
 #   "score": <integer 0-100>,
-#   "animal": "dog",
+#   "animal": "<dog|cat|other>",
 #   "observations": [{{"label": "<string>", "type": "<ok|warn|danger>"}}],
 #   "analysis": "<2-3 sentence explanation>",
 #   "conditions": [
@@ -386,13 +777,8 @@ from groq import Groq
 #  LOAD DISEASE DATABASE (dog_diseases.json)
 # ──────────────────────────────────────────────
 import os as _os
-# _DB_PATH = _os.path.join(_os.path.dirname(__file__), "dog_diseases.json")
-# try:
-#     with open(_DB_PATH, "r", encoding="utf-8") as _f:
-#         DISEASE_DB = json.load(_f)
-#     print(f"[INFO] Disease DB loaded: {len(DISEASE_DB)} diseases")
 DISEASE_DB = []
-for _fname in ["dog_diseases.json", "cat_diseases.json"]:
+for _fname in ["dog_diseases.json", "cat_diseases.json", "cow_diseases.json"]:
     _path = _os.path.join(_os.path.dirname(__file__), _fname)
     try:
         with open(_path, "r", encoding="utf-8") as _f:
@@ -400,11 +786,15 @@ for _fname in ["dog_diseases.json", "cat_diseases.json"]:
         print(f"[INFO] Loaded {_fname}")
     except:
         pass
-        
+
 print(f"[INFO] Disease DB total: {len(DISEASE_DB)}")
-#except Exception as _e:
-    # DISEASE_DB = []
-    # print(f"[WARN] dog_diseases.json not found: {_e}")
+
+# ──────────────────────────────────────────────
+#  MODEL NAMES (Groq deprecated old models — updated Aug 2026)
+# ──────────────────────────────────────────────
+TEXT_MODEL   = "openai/gpt-oss-120b"
+VISION_MODEL = "qwen/qwen3.6-27b"
+
 # ──────────────────────────────────────────────
 #  ROBUST JSON PARSER
 #  Handles: empty response, markdown fences,
@@ -431,13 +821,13 @@ def parse_response(text: str) -> dict:
 #  Retries 3x on: empty response, bad JSON,
 #  transient API errors
 # ──────────────────────────────────────────────
-def call_groq(client, messages: list, max_tokens: int = 1024, retries: int = 3) -> dict:
+def call_groq(client, messages: list, max_tokens: int = 1024, retries: int = 3, model: str = TEXT_MODEL) -> dict:
     last_error = None
 
     for attempt in range(1, retries + 1):
         try:
             response = client.chat.completions.create(
-                model="meta-llama/llama-4-scout-17b-16e-instruct",
+                model=model,
                 messages=messages,
                 max_tokens=max_tokens,
                 temperature=0.3,
@@ -525,7 +915,7 @@ def fix_score(result: dict) -> dict:
 def enrich_from_db(result: dict) -> dict:
     if not DISEASE_DB or not result.get("conditions"):
         return result
-    
+
     #detected animal (dog/cat/other)
     detected_animal = (result.get("animal") or "dog").lower().strip()
 
@@ -617,7 +1007,6 @@ def post_process(result: dict) -> dict:
 # ──────────────────────────────────────────────
 #  PROMPTS
 # ──────────────────────────────────────────────
-#IMAGE_PROMPT = """You are an expert veterinary AI assistant. Analyze this pet photo carefully.
 IMAGE_PROMPT = """You are an expert veterinary AI assistant specializing in dogs and cats. Analyze this pet photo carefully.
 SCORING RULES (mandatory):
 - Any condition with likelihood "high"   → score 30-54
@@ -716,7 +1105,7 @@ def analyze_pet(image_bytes: bytes, mime_type: str) -> dict:
             {"type": "text",      "text": IMAGE_PROMPT}
         ]
     }]
-    return post_process(call_groq(client, messages))
+    return post_process(call_groq(client, messages, model=VISION_MODEL))
 
 
 # ──────────────────────────────────────────────
@@ -750,7 +1139,7 @@ def analyze_pet_video(video_bytes: bytes) -> dict:
         for f in frames
     ]
     content.append({"type": "text", "text": IMAGE_PROMPT})
-    return post_process(call_groq(client, [{"role": "user", "content": content}]))
+    return post_process(call_groq(client, [{"role": "user", "content": content}], model=VISION_MODEL))
 
 
 # ──────────────────────────────────────────────
@@ -762,4 +1151,4 @@ def analyze_pet_text(description: str) -> dict:
         "role": "user",
         "content": TEXT_PROMPT_TEMPLATE.format(description=description)
     }]
-    return post_process(call_groq(client, messages))
+    return post_process(call_groq(client, messages, model=TEXT_MODEL))

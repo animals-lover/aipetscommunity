@@ -825,7 +825,7 @@ def parse_response(text: str) -> dict:
 #  Retries 3x on: empty response, bad JSON,
 #  transient API errors
 # ──────────────────────────────────────────────
-def call_groq(client, messages: list, max_tokens: int = 1024, retries: int = 3, model: str = TEXT_MODEL) -> dict:
+def call_groq(client, messages: list, max_tokens: int = 512,retries: int = 3, model: str = TEXT_MODEL) -> dict:
     last_error = None
 
     for attempt in range(1, retries + 1):

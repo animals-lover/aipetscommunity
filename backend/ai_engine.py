@@ -772,7 +772,7 @@ import tempfile
 import time
 import numpy as np
 from groq import Groq
-
+import re 
 # ──────────────────────────────────────────────
 #  LOAD DISEASE DATABASE (dog_diseases.json)
 # ──────────────────────────────────────────────
@@ -805,6 +805,11 @@ def parse_response(text: str) -> dict:
         raise ValueError("AI returned an empty response")
 
     clean = text.strip()
+
+    # Remove <think>...</think> reasoning blocks some models add
+    import re
+    clean = re.sub(r"<think>.*?</think>", "", clean, flags=re.DOTALL).strip()
+
     # Remove markdown code fences
     clean = clean.replace("```json", "").replace("```", "").strip()
     # Extract the JSON object even if model adds intro/outro text
@@ -814,7 +819,6 @@ def parse_response(text: str) -> dict:
         raise ValueError(f"No valid JSON in response: {clean[:300]}")
     clean = clean[start : end + 1]
     return json.loads(clean)
-
 
 # ──────────────────────────────────────────────
 #  GROQ API WITH RETRY

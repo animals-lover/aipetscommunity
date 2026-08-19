@@ -1110,8 +1110,7 @@ def analyze_pet(image_bytes: bytes, mime_type: str) -> dict:
             {"type": "text",      "text": IMAGE_PROMPT}
         ]
     }]
-    return post_process(call_groq(client, messages, model=VISION_MODEL))
-
+    return post_process(call_groq(client, messages, max_tokens=3000, model=VISION_MODEL))
 
 # ──────────────────────────────────────────────
 #  VIDEO ANALYSIS
@@ -1144,7 +1143,7 @@ def analyze_pet_video(video_bytes: bytes) -> dict:
         for f in frames
     ]
     content.append({"type": "text", "text": IMAGE_PROMPT})
-    return post_process(call_groq(client, [{"role": "user", "content": content}], model=VISION_MODEL))
+    return post_process(call_groq(client, [{"role": "user", "content": content}], max_tokens=3000, model=VISION_MODEL))
 
 
 # ──────────────────────────────────────────────

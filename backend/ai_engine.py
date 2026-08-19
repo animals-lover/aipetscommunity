@@ -835,6 +835,7 @@ def call_groq(client, messages: list, max_tokens: int = 512,retries: int = 3, mo
                 messages=messages,
                 max_tokens=max_tokens,
                 temperature=0.3,
+                response_format={"type": "json_object"},    
             )
             raw = (response.choices[0].message.content or "").strip()
             if not raw:
